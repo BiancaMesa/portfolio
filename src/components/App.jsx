@@ -1,7 +1,15 @@
 import '../scss/App.scss'; 
+import Header from './Header';
+import Hero from './Hero';
+
 
 function App() {
-  return <p>Hola</p>
+  return (
+    <>
+      <Header/>
+      <Hero/>
+    </>
+  )
 }
 
 export default App;

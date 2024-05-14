@@ -1,0 +1,29 @@
+.header{
+    background-color: rgb(195, 191, 208);
+    padding: 10px 2%;
+    border: 1px solid black;  
+    display: flex;
+    justify-content: space-between;
+
+    &__mainName{
+        color: white;
+        cursor: pointer;
+    }
+
+    &__menu{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 50%; 
+        color: white; 
+        font-weight: bold;
+        font-size: 19px;
+        cursor: pointer;
+
+        &--item {
+            
+        }
+    }
+
+}
