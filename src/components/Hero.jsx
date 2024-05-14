@@ -9,8 +9,8 @@ function Hero() {
     </div>
 
     <div className="hero__infoCard">
-        <p className="hero__infoCard--intro">Hi, this is Bianca</p>
-        <h1 className="hero__infoCard--statement">I'M A PASSIONATE FRONT-END DEVELOPER</h1>
+        <p className="hero__infoCard--intro">HI, THIS IS BIANCA</p>
+        <h1 className="hero__infoCard--statement">I'M A PASSIONATE FRONT-END DEVELOPER WITH A BIG PASSION FOR DESIGN</h1>
         <p className="hero__infoCard--subtext">lorem ....</p>
         <button className="hero__infoCard--button">Know More</button>
     </div>
