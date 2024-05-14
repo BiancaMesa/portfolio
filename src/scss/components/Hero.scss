@@ -1,8 +1,13 @@
 .hero {
 
-    &__image{
-        width: 500px;
-        margin-right: 60px;
+    &__imageContainer{
+        // display: flex;
+        // justify-content: space-between;
+
+        &--image{
+            width: 500px;
+            margin-right: 60px;
+        }
     }
 
     &__infoCard{

@@ -3,8 +3,10 @@ import "../scss/components/Hero.scss";
 function Hero() {
   return (
    <section className="hero">
-    <img className="hero__image" src="/public/ocean2.jpg" alt="ocean2_img" />
-    <img className="hero__image" src="/public/ocean1.jpg" alt="ocean1_img" />
+    <div className="hero_imageContainer">
+        <img className="hero__imageContainer--image" src="/public/ocean2.jpg" alt="ocean2_img" />
+        <img className="hero__imageContainer--image" src="/public/ocean1.jpg" alt="ocean1_img" />
+    </div>
 
     <div className="hero__infoCard">
         <p className="hero__infoCard--intro">Hi, this is Bianca</p>
