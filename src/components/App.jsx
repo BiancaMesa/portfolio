@@ -2,6 +2,7 @@ import '../scss/App.scss';
 import Header from './Header';
 import Hero from './Hero';
 import GalleryGrid from './GalleryGrid';
+import Projects from './Projects';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Header/>
       <Hero/>
       <GalleryGrid/>
+      <Projects/>
     </>
   )
 }
