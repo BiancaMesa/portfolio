@@ -3,6 +3,7 @@ import Header from './Header';
 import Hero from './Hero';
 import GalleryGrid from './GalleryGrid';
 import Projects from './Projects';
+import About from './About';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Hero/>
       <GalleryGrid/>
       <Projects/>
+      <About/>
     </>
   )
 }
