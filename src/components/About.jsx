@@ -8,7 +8,7 @@ function About() {
             <img className="aboutSection__section1--image" src="/public/bianca1.jpeg" alt="bianca" />
         </div>
         <div className="aboutSection__section2">
-            <img className="aboutSection__section2--image" src="/public/bianca2.jpeg" alt="bianca" />
+            <img className="aboutSection__section2--image" src="/public/bianca3.jpeg" alt="bianca" />
         </div>
         
 
