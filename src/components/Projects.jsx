@@ -1,4 +1,6 @@
 import "../scss/components/Projects.scss";
+import rick from "../images/rick2.png";
+import catCharity from "../images/cat_charity.png";
 
 function Projects() {
   return (
@@ -14,7 +16,7 @@ function Projects() {
                 <span>TECH used icons</span>
             </div>
             
-            <img className="projects__project--image" src="/public/rick2.png" alt="rick" />
+            <img className="projects__project--image" src={rick} alt="rick" />
 
             <i className="fa-solid fa-angle-right projects__project--angle"></i>
         </div>
@@ -28,7 +30,7 @@ function Projects() {
                 <span>TECH used icons</span>
             </div>
             
-            <img className="projects__project--image" src="/public/cat_charity.png" alt="rick" />
+            <img className="projects__project--image" src={catCharity} alt="rick" />
 
             <i className="fa-solid fa-angle-right projects__project--angle"></i>
         </div>

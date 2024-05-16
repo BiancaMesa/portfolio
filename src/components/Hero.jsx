@@ -1,11 +1,13 @@
 import "../scss/components/Hero.scss";
+import hero1 from "../images/ocean1.jpg";
+import hero2 from "../images/ocean2.jpg";
 
 function Hero() {
   return (
    <section className="hero">
     <div className="hero_imageContainer">
-        <img className="hero__imageContainer--image" src="/public/ocean2.jpg" alt="ocean2_img" />
-        <img className="hero__imageContainer--image" src="/public/ocean1.jpg" alt="ocean1_img" />
+        <img className="hero__imageContainer--image" src={hero1} alt="hero1" />
+        <img className="hero__imageContainer--image" src={hero2} alt="hero2" />
     </div>
 
     <div className="hero__infoCard">
