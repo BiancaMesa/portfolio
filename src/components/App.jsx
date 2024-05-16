@@ -5,6 +5,7 @@ import GalleryGrid from './GalleryGrid';
 import Projects from './Projects';
 import About from './About';
 import Footer from './Footer';
+import Resume from './Resume';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <GalleryGrid/>
       <Projects/>
       <About/>
+      <Resume/>
       <Footer/>
     </>
   )
