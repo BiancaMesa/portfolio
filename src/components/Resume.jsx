@@ -7,6 +7,7 @@ function Resume() {
         <p>Lorem....</p>
 
         <h2>Technologies</h2>
+        <p>Icons of techs</p>
     </section>
   )
 }
