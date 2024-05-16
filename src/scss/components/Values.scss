@@ -30,70 +30,98 @@
         }
     
         .valueOne{
-            //width: 30%;
+            width: 50%;
             background-color: rgb(230, 221, 230);
             //margin-bottom: 30px;
             padding: 50px;
-            margin-top: 40px;
+            margin-top: 30px;
+            border: 1px solid black;
             
 
             &__title{
                 font-size: 25px;
+                margin-bottom: 20px;
+
+                .valueSparkle{
+                    width: 20px;
+                }
 
             }
 
             &__text{
+                font-size: 18px;
 
             }
     
         }
 
         .valueTwo{
-            //width: 30%;
+            width: 50%;
             background-color: rgb(230, 221, 230);
             //margin-bottom: 30px;
             padding: 50px;
+            border: 1px solid black;
 
             &__title{
                 font-size: 25px;
+                margin-bottom: 20px;
+
+                .valueSparkle{
+                    width: 20px;
+                }
 
             }
 
             &__text{
+                font-size: 18px;
 
             }
     
         }
 
         .valueThree{
-            //width: 30%;
+            width: 50%;
             background-color: rgb(230, 221, 230);
             //margin-bottom: 30px;
             padding: 50px;
+            border: 1px solid black;
 
             &__title{
                 font-size: 25px;
+                margin-bottom: 20px;
+
+                .valueSparkle{
+                    width: 20px;
+                }
 
             }
 
             &__text{
+                font-size: 18px;
 
             }
     
         }
 
         .valueFour{
-            //width: 30%;
+            width: 50%;
             background-color: rgb(230, 221, 230);
             //margin-bottom: 30px;
             padding: 50px;
+            border: 1px solid black;
 
             &__title{
                 font-size: 25px;
+                margin-bottom: 20px;
+
+                .valueSparkle{
+                    width: 20px;
+                }
 
             }
 
             &__text{
+                font-size: 18px;
 
             }
     
