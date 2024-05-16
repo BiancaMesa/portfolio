@@ -1,3 +1,102 @@
-.resume{
+.resumeContainer{
+    padding: 70px 30px;
+
+
+    &__title {
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    .resume{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        //justify-content: center;
+        align-items: center;
+        gap: 40px;
+
+        &__techs{
+            //background-color: rgb(207, 230, 236);
+            background-color: rgb(228, 244, 248);
+            border: 2px solid rgb(44, 42, 44);
+            //width: 30%;
+            padding: 10px; 
+            //justify-self: center;
+    
+            &--title{
+                border: 1px solid white;
+                background-color: white; 
+                color: rgb(169, 141, 176);
+                //color: white;
+                border-radius: 30px;
+                padding: 10px 0px;
+                margin-bottom: 20px;
+               // width: 50%;
+                text-align: center;
+                //justify-self: center;
+            }
+    
+            &--text{
+    
+            }
+        }
+
+        &__skills{
+            background-color: rgb(228, 244, 248);
+            border: 2px solid rgb(44, 42, 44);
+            //width: 30%;
+            padding: 10px; 
+
+            &--title{
+                text-align: center;
+                padding: 10px 0px;
+                margin-bottom: 20px;
+
+            }
+
+            &--text{
+
+            }
+        }
+
+        &__experience{
+            background-color: rgb(228, 244, 248);
+            border: 2px solid rgb(44, 42, 44);
+            //width: 30%;
+            padding: 10px; 
+
+            &--title{
+                text-align: center;
+                padding: 10px 0px;
+                margin-bottom: 20px;
+
+            }
+
+            &--text{
+
+            }
+        }
+
+        &__education{
+            background-color: rgb(228, 244, 248);
+            border: 2px solid rgb(44, 42, 44);
+            //width: 30%;
+            padding: 10px; 
+
+            &--title{
+                text-align: center;
+                padding: 10px 0px;
+                margin-bottom: 20px;
+
+            }
+
+            &--text{
+
+            }
+        }
+    }
+
+   
     
 }
