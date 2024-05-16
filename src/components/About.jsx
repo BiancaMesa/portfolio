@@ -3,13 +3,17 @@ import "../scss/components/About.scss";
 function About() {
   return (
     <section className="aboutSection">
-        <div className="aboutSection__section1">
-            <h1 className="aboutSection__section1--title">About Me</h1>
-            <img className="aboutSection__section1--image" src="/public/bianca1.jpeg" alt="bianca" />
-        </div>
-        <div className="aboutSection__section2">
+        <section className="aboutSection__section1">
+          <div className="aboutSection__section1--titleAndText">
+            <h1 className="titleSection1">About Me</h1>
+            <p className="textSection1">akjndkanj</p>
+          </div>
+            <img className="aboutSection__section1--image" src="/public/bianca3.jpeg" alt="bianca" />
+        </section>
+        {/* <div className="aboutSection__section2">
             <img className="aboutSection__section2--image" src="/public/bianca3.jpeg" alt="bianca" />
-        </div>
+        </div> */}
+
         
 
     </section>
