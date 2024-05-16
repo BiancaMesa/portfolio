@@ -7,6 +7,8 @@ import About from './About';
 import Footer from './Footer';
 import Resume from './Resume';
 import Quote from './Quote';
+import Values from './Values';
+import Contact from './Contact';
 
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
       <About/>
       <Resume/>
       <Quote/>
+      <Values/>
+      <Contact/>
       <Footer/>
     </>
   )
