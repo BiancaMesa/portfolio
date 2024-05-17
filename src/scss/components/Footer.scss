@@ -15,14 +15,14 @@
 
     &__socials{
         font-size: 30px;
-        color: rgb(203, 188, 215);
 
-        &--email{
-            margin-right: 30px;
-        }
+        &--anchor{
+            color: rgb(203, 188, 215);
 
-        &--linkedin{
-            margin-right:30px;
+            .socialsIcon{
+                margin-right: 30px;
+                cursor: pointer;
+            }
         }
     }
  

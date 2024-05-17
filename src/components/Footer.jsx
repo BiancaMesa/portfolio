@@ -6,11 +6,18 @@ function Footer() {
         <p className="footer__author">&copy; 2024 created by Bianca Mesa</p>
 
         <section className="footer__socials"> 
-          <i className="fa-solid fa-envelope footer__socials--email"></i>
-          <i className="fa-brands fa-linkedin-in footer__socials--linkedin"></i>
-          <i className="fa-brands fa-github footer__socials--github"></i>
 
-         
+          <a className="footer__socials--anchor" href="mailto:bbiancamesa@gmail.com">
+            <i className="fa-solid fa-envelope socialsIcon"></i>
+          </a>
+          
+          <a className="footer__socials--anchor"  href="https://www.linkedin.com/in/bianca-mesa/" target="_blank">
+            <i className="fa-brands fa-linkedin-in socialsIcon"></i>
+          </a>
+
+          <a className="footer__socials--anchor"  href="https://github.com/BiancaMesa" target="_blank">
+            <i className="fa-brands fa-github socialsIcon"></i>
+          </a>
         </section>
         
     </footer>
