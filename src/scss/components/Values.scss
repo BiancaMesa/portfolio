@@ -9,6 +9,7 @@
 
     &__image{
         width: 50%;
+        //height: 100%;
         //position: sticky;
     }
 
@@ -21,6 +22,7 @@
         align-items: center;
         gap: 30px;
         margin-top: -40px;
+        overflow:auto;
         
         &--title{
             font-size: 40px;
@@ -126,6 +128,30 @@
             }
     
         }
+
+        // .valueFive{
+        //     width: 50%;
+        //     background-color: rgb(230, 221, 230);
+        //     //margin-bottom: 30px;
+        //     padding: 50px;
+        //     border: 1px solid black;
+
+        //     &__title{
+        //         font-size: 25px;
+        //         margin-bottom: 20px;
+
+        //         .valueSparkle{
+        //             width: 20px;
+        //         }
+
+        //     }
+
+        //     &__text{
+        //         font-size: 18px;
+
+        //     }
+    
+        // }
     }
 
 

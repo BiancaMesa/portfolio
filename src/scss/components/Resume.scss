@@ -25,9 +25,9 @@
             //justify-self: center;
     
             &--title{
-                border: 1px solid white;
-                background-color: white; 
-                color: rgb(169, 141, 176);
+                //border: 1px solid white;
+                //background-color: white; 
+                //color: rgb(169, 141, 176);
                 //color: white;
                 border-radius: 30px;
                 padding: 10px 0px;
@@ -37,7 +37,20 @@
                 //justify-self: center;
             }
     
-            &--text{
+            &--techs{
+                display: flex;
+                justify-content: center;
+                // align-content: center;
+                // text-align: center;
+                gap: 20px;
+
+                // .techIcon{
+                //     font-size: 30px;
+                // }
+
+                .techIconImage{
+                    width: 60px;
+                }
     
             }
         }
