@@ -6,7 +6,7 @@ function Quote() {
     <section className="quoteSection">
         {/* <img className="quoteSection__image" src="/public/yoga_sunset.jpg" alt="yoga_sunset" /> */}
 
-        <video className="quoteSection__video" autoplay loop >
+        <video className="quoteSection__video" autoplay loop muted>
             <source src={quoteVideo} type="video/mp4"/>
         </video>
 

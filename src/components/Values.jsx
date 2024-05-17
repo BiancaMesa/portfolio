@@ -28,16 +28,16 @@ function Values() {
 
                 <div className="valueThree">
                     <h3 className="valueThree__title">
-                        <img className="valueSparkle" src={sparkle} alt="sparkle" /> EMPATHY <img className="valueSparkle" src={sparkle} alt="sparkle" />
+                        <img className="valueSparkle" src={sparkle} alt="sparkle" /> EQUALITY <img className="valueSparkle" src={sparkle} alt="sparkle" />
                     </h3>
-                    <p className="valueThree__text">Towards self & others</p>
+                    <p className="valueThree__text">....</p>
                 </div>
 
                 <div className="valueFour">
                     <h3 className="valueFour__title">
-                        <img className="valueSparkle" src={sparkle} alt="sparkle" /> VALUE 4 <img className="valueSparkle" src={sparkle} alt="sparkle" />
+                        <img className="valueSparkle" src={sparkle} alt="sparkle" /> EMPATHY <img className="valueSparkle" src={sparkle} alt="sparkle" />
                     </h3>
-                    <p className="valueFour__text">Explain</p>
+                    <p className="valueFour__text">Towards self & others</p>
                 </div>
 
                 {/* <p className="valuesContainer__written--text"></p> */}

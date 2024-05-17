@@ -35,15 +35,37 @@
 
         }
 
-        &--subtext{
-            margin-bottom: 20px;
+        &--subContainer{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
 
+            .heroInfo{
+
+
+                &__subtext{
+                    margin-bottom: 20px;
+                }
+                
+                &__button{
+                    background-color: white;
+                    padding: 8px 18px; 
+                    border: 1px solid black;
+
+                }
+            }
         }
 
-        &--button{
-            background-color: white;
-            padding: 8px 18px; 
-            border: 1px solid black;
+        .heroInfoCardImage{
+            width: 170px;
+            // border-radius: 100px;
+            // box-shadow: 1px 1px 5px 1px rgb(129, 149, 151);
+            //border: 1px solid black;
+            transform: rotate(10deg);
+            margin-left: 300px;
+            border: 3px solid white;
         }
+
+       
     }
 }
