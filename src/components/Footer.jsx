@@ -3,7 +3,7 @@ import "../scss/components/Footer.scss";
 function Footer() {
   return (
     <footer className="footer">
-        <p className="footer__author">&copy; 2024 created by Bianca Mesa</p>
+        <p className="footer__creation">&copy; 2024 created by <span className="footer__creation--author">Bianca Mesa</span></p>
 
         <section className="footer__socials"> 
 
