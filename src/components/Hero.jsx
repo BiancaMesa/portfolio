@@ -6,6 +6,7 @@ import biancaHero from "../images/bianca6.jpeg";
 function Hero() {
   return (
    <section className="hero">
+    {/* <img className="heroBiancaImage" src={biancaHero} alt="biancaHero" /> */}
     <div className="hero_imageContainer">
         <img className="hero__imageContainer--image" src={hero1} alt="hero1" />
         <img className="hero__imageContainer--image" src={hero2} alt="hero2" />
@@ -21,7 +22,7 @@ function Hero() {
             <button className="heroInfo__button">Know More</button>
           </div>
 
-          <img className="heroInfoCardImage" src={biancaHero} alt="biancaHero" />
+          {/* <img className="heroInfoCardImage" src={biancaHero} alt="biancaHero" /> */}
        </div>
        
         
