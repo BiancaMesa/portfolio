@@ -9,6 +9,7 @@ import Resume from './Resume';
 import Quote from './Quote';
 import Values from './Values';
 import Contact from './Contact';
+import FunFacts from './FunFacts';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Resume/>
       <Quote/>
       <Values/>
+      <FunFacts/>
       <Contact/>
       <Footer/>
     </>
