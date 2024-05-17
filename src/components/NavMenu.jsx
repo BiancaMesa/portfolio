@@ -7,6 +7,7 @@ function NavMenu() {
        <li className="header__menu--item">SKILLS</li>
        <li className="header__menu--item">ABOUT ME</li>
        <li className="header__menu--item">VALUES</li>
+       <li className="header__menu--item">FUN FACTS</li>
        <li className="header__menu--item">CONTACT</li>
     </ul>
   )
