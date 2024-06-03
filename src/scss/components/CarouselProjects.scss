@@ -1,0 +1,47 @@
+// .carousel{
+//     margin: 0;
+// }
+
+.project {
+    //display: flex;
+    //justify-content: space-around;
+    //align-items: center;
+
+    &__info{
+        //margin-top: 50px;
+        color: black;
+        //align-self: center;
+        text-align: end;
+        padding-bottom: 50vh;
+        margin-right: -7vw;
+
+        &--title{
+            font-size: 35px;
+            color: rgb(171, 195, 196);
+            margin-bottom: 20px;
+        }
+
+        &--description{
+            margin-bottom: 20px;
+        }
+
+        &--technologies{
+
+        }
+    }
+
+    &__image{
+        width: 700px;
+        border: 5px solid rgb(152, 194, 194); 
+    }
+}
+
+
+.carousel .carousel-indicators button {
+    //color: black;
+    background-color: rgb(200, 224, 233);
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+
+}
