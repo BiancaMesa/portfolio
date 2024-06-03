@@ -13,16 +13,19 @@
         //align-self: center;
         text-align: end;
         padding-bottom: 50vh;
-        margin-right: -7vw;
+        margin-right: -8vw;
+        //background-color: aqua;
+        //width: 50%;
 
         &--title{
-            font-size: 35px;
-            color: rgb(171, 195, 196);
+            font-size: 40px;
+            color: rgb(170, 196, 208);
             margin-bottom: 20px;
         }
 
         &--description{
             margin-bottom: 20px;
+            font-size: 20px;
         }
 
         &--technologies{
@@ -31,7 +34,8 @@
     }
 
     &__image{
-        width: 700px;
+       // width: 700px;
+       width: 50%;
         border: 5px solid rgb(152, 194, 194); 
     }
 }
@@ -44,4 +48,12 @@
     height: 16px;
     border-radius: 50%;
 
+}
+
+.carousel-control-prev-icon {
+    padding: 20px;
+}
+
+.carousel-control-next-icon {
+    padding: 20px;
 }

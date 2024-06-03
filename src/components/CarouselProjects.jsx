@@ -1,8 +1,15 @@
 import Carousel from 'react-bootstrap/Carousel';
-import rickAndMorty from "../images/rick2.png";
-import catCharity from "../images/cat_charity2.png";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../scss/components/CarouselProjects.scss";
+import rickAndMorty from "../images/rick2.png";
+import catCharity from "../images/cat_charity2.png";
+import grogu from "../images/grogu.png";
+import animeFinder from "../images/anime_finder.png";
+import guessTheNumber from "../images/guess_the_number.png";
+import pawsomeProfileCards from "../images/pawsome_profile_cards.png";
+import findACountry from "../images/find_a_country.png";
+
+
 
 function CarouselProjects () {
 
@@ -20,6 +27,41 @@ function CarouselProjects () {
       "description": "Project Description",
       "technologies": "tech used icons",
       "alt": "Second slide"
+    },
+    {
+      "image": guessTheNumber,
+      "title": "Guess The Number",
+      "description": "Project Description",
+      "technologies": "tech used icons",
+      "alt": "Third slide"
+    },
+    {
+      "image": animeFinder,
+      "title": "Anime Finder",
+      "description": "Project Description",
+      "technologies": "tech used icons",
+      "alt": "Fourth slide"
+    },
+    {
+      "image": pawsomeProfileCards,
+      "title": "Pawsome Profile Cards",
+      "description": "Project Description",
+      "technologies": "tech used icons",
+      "alt": "Sixth slide"
+    },
+    {
+      "image": findACountry,
+      "title": "Find a Country",
+      "description": "Project Description",
+      "technologies": "tech used icons",
+      "alt": "Seventh slide"
+    },
+    {
+      "image": grogu,
+      "title": "Grogu Game",
+      "description": "Project Description",
+      "technologies": "tech used icons",
+      "alt": "Eigth slide"
     }
   ];
 
