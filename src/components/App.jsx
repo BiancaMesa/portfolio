@@ -10,7 +10,7 @@ import Resume from './Resume';
 import Quote from './Quote';
 import Values from './Values';
 import Contact from './Contact';
-import FunFacts from './FunFacts';
+import Passions from './Passions';
 
 
 
@@ -27,7 +27,7 @@ function App() {
           <Resume/>
           <Quote/>
           <Values/>
-          <FunFacts/>
+          <Passions/>
           <Contact/>
           <Footer/>
         </>}
