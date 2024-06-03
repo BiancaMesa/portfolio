@@ -43,7 +43,7 @@ function Resume() {
                 <p className="resume__skills--text">List of soft skills</p>
             </div>
 
-            <div className="resume__experience">
+            {/* <div className="resume__experience">
                 <h2 className="resume__experience--title">Experience</h2>
                 <p className="resume__experience--text">Tell experience</p>
             </div>
@@ -52,7 +52,7 @@ function Resume() {
                 <h2 className="resume__education--title">Education</h2>
                 <p className="resume__education--text">Tell education</p>
             </div>
-            
+             */}
         </div>
         
     </section>
