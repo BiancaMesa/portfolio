@@ -3,21 +3,22 @@
     flex-direction: column;
     align-items:center;
     //margin-top: -159px;
+    text-align: center;
 
-    .heroBiancaImage{
-        width: 170px;
-        transform: rotate(-8deg);
-        margin-left: 300px;
-        border: 3px solid white;
-        position: relative;
-        top: 200px; 
-        left: -700px;
+    // .heroBiancaImage{
+    //     width: 170px;
+    //     transform: rotate(-8deg);
+    //     margin-left: 300px;
+    //     border: 3px solid white;
+    //     position: relative;
+    //     top: 200px; 
+    //     left: -700px;
 
-         // border-radius: 100px;
-        // box-shadow: 1px 1px 5px 1px rgb(129, 149, 151);
-        //border: 1px solid black;
+    //      // border-radius: 100px;
+    //     // box-shadow: 1px 1px 5px 1px rgb(129, 149, 151);
+    //     //border: 1px solid black;
         
-    }
+    // }
 
     &__imageContainer{
 
@@ -38,16 +39,27 @@
         //text-align: center;
         padding: 30px 30px;
         background: rgb(233, 237, 233);
+        //background: rgb(243, 246, 243);
+        //background: linear-gradient(90deg, rgba(179,177,207,1) 0%, rgba(142,142,181,1) 50%, rgba(129,220,238,1) 100%);
+        //: linear-gradient(90deg, rgba(211,211,223,1) 0%, rgba(142,142,180,1) 55%, rgba(165,229,242,1) 100%);
+        //background: linear-gradient(90deg, rgba(143,143,186,1) 0%, rgba(211,211,223,1) 55%, rgba(171,226,237,1) 100%);
+        //background: linear-gradient(90deg, rgba(143,143,186,1) 0%, rgba(184,184,212,1) 43%, rgba(171,226,237,1) 100%);
+        background: linear-gradient(90deg, rgba(162,162,196,1) 0%, rgba(184,184,212,1) 36%, rgba(151,168,209,1) 57%, rgba(161,196,227,1) 78%, rgba(171,226,237,1) 100%);
         border: 0.8px solid black;
         
         &--intro{
             margin-bottom: 20px;
+            font-size: 22px;
+            color: rgb(86, 92, 88);
+            font-weight: bold;
 
         }
 
         &--statement{
             font-size: 30px;
             margin-bottom: 20px;
+            color: white;
+            
 
         }
 
@@ -67,7 +79,12 @@
                     background-color: white;
                     padding: 8px 18px; 
                     border: 1px solid black;
+                    cursor: pointer;
 
+                    &:hover{
+                        background-color: rgb(72, 77, 79);
+                        color: white;
+                    }
                 }
             }
         }

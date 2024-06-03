@@ -1,5 +1,6 @@
 {
   "name": "template-react",
+  "homepage": "./",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,12 +8,14 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview", 
+    "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.23.1",
+    "react-router-hash-link": "^2.4.3",
     "sass": "^1.77.1"
   },
   "devDependencies": {

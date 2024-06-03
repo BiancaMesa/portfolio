@@ -1,3 +1,4 @@
+import { Route, Routes } from "react-router-dom";
 import '../scss/App.scss'; 
 import Header from './Header';
 import Hero from './Hero';
@@ -12,22 +13,27 @@ import Contact from './Contact';
 import FunFacts from './FunFacts';
 
 
+
 function App() {
   return (
-    <>
-      <Header/>
-      <Hero/>
-      <GalleryGrid/>
-      <Projects/>
-      <About/>
-      <Resume/>
-      <Quote/>
-      <Values/>
-      <FunFacts/>
-      <Contact/>
-      <Footer/>
-    </>
-  )
+    <Routes>
+      <Route path="/" element={
+        <>
+          <Header/>
+          <Hero/>
+          <GalleryGrid/>
+          <Projects/>
+          <About/>
+          <Resume/>
+          <Quote/>
+          <Values/>
+          <FunFacts/>
+          <Contact/>
+          <Footer/>
+        </>}
+      />
+    </Routes>
+  );
 }
 
 export default App;

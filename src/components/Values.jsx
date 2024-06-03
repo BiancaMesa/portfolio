@@ -14,7 +14,7 @@ function Values() {
 
                 <div className="valueOne">
                     <h3 className="valueOne__title">
-                        <img className="valueSparkle" src={sparkle} alt="sparkle" /> KINDESS <img className="valueSparkle" src={sparkle} alt="sparkle" />
+                        <img className="valueSparkle" src={sparkle} alt="sparkle" /> KINDNESS <img className="valueSparkle" src={sparkle} alt="sparkle" />
                     </h3>
                     <p className="valueOne__text">Treating others in a way that proves there's goodness & beauty in the world</p>
                 </div>

@@ -1,10 +1,11 @@
+// import {NavLink} from "react-router-dom";
 import "../scss/components/About.scss";
 import bianca from "../images/bianca3.jpeg";
 import aboutMe from "../images/about_me.png";
 
 function About() {
   return (
-    <section className="aboutSection">
+    <section className="aboutSection" id="#about">
         {/* <section className="aboutSection__section1"> */}
           <div className="aboutSection__wrapper">
             <img className="aboutSection__wrapper--title" src={aboutMe} alt="aboutMe" />
