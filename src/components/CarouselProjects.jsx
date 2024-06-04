@@ -9,6 +9,9 @@ import guessTheNumber from "../images/guess_the_number5.png";
 import pawsomeProfileCards from "../images/pawsome_profile_cards6.png";
 import findACountry from "../images/find_a_country9.png";
 import proyectosPaintones from "../images/proyectos_paintones4.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
+
 
 
 
@@ -81,7 +84,10 @@ function CarouselProjects () {
   //   };
 
   return (
-    <Carousel slide={false}>
+    // <Carousel slide={false}>
+    <Carousel
+      prevIcon={<FontAwesomeIcon icon={faChevronLeft} className="chevronIconLeft" />}
+      nextIcon={<FontAwesomeIcon icon={faChevronRight} className="chevronIconRight" />}>
 
       {projectSlides.map((projectSlide, index) => (
         <Carousel.Item className="project"  key={index}>
