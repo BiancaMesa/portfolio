@@ -49,7 +49,8 @@
                 // }
 
                 .techIconImage{
-                    width: 60px;
+                    //width: 60px;
+                    width: 80px;
                 }
     
             }
@@ -73,41 +74,41 @@
             }
         }
 
-        &__experience{
-            background-color: rgb(228, 244, 248);
-            border: 2px solid rgb(44, 42, 44);
-            //width: 30%;
-            padding: 10px; 
+        // &__experience{
+        //     background-color: rgb(228, 244, 248);
+        //     border: 2px solid rgb(44, 42, 44);
+        //     //width: 30%;
+        //     padding: 10px; 
 
-            &--title{
-                text-align: center;
-                padding: 10px 0px;
-                margin-bottom: 20px;
+        //     &--title{
+        //         text-align: center;
+        //         padding: 10px 0px;
+        //         margin-bottom: 20px;
 
-            }
+        //     }
 
-            &--text{
+        //     &--text{
 
-            }
-        }
+        //     }
+        // }
 
-        &__education{
-            background-color: rgb(228, 244, 248);
-            border: 2px solid rgb(44, 42, 44);
-            //width: 30%;
-            padding: 10px; 
+        // &__education{
+        //     background-color: rgb(228, 244, 248);
+        //     border: 2px solid rgb(44, 42, 44);
+        //     //width: 30%;
+        //     padding: 10px; 
 
-            &--title{
-                text-align: center;
-                padding: 10px 0px;
-                margin-bottom: 20px;
+        //     &--title{
+        //         text-align: center;
+        //         padding: 10px 0px;
+        //         margin-bottom: 20px;
 
-            }
+        //     }
 
-            &--text{
+        //     &--text{
 
-            }
-        }
+        //     }
+        // }
     }
 
    
