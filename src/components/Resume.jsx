@@ -17,6 +17,7 @@ function Resume() {
         <div className="resume">
             <div className="resume__techs">
                 <h2 className="resume__techs--title">Technologies and tools</h2>
+                <h3>Love them or hate them?</h3>
                 <div className="resume__techs--techs">
                     {/* <i className="fa-brands fa-js techIcon"></i>
                     <i className="fa-brands fa-react techIcon"></i>

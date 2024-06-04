@@ -16,6 +16,7 @@ function About() {
             <p className="aboutSection__wrapper--text">
               🤓🫶🏽🌷I have a big passion for design and I find programming a great way to combine both the logical, problem-solving part of the brain with the left hemisphere which is more about creativity, imagination and innovation.
             </p>
+            <a href="https://drive.google.com/file/d/1R6Fwre1Xz3tkCvGrGNSUFLPX5cYWXlie/view" download="Bianca_Mesa_Resume.pdf" target="_blank" className="aboutSection__wrapper--resumeButton">Download Résumé</a>
           </div>
             <img className="aboutSection__image" src={bianca} alt="bianca" />
         {/* </section> */}
