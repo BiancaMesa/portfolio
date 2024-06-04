@@ -1,30 +1,18 @@
-// .carousel{
-//     margin: 0;
-// }
 
 .project {
-    //display: flex;
-    //justify-content: space-around;
-    //align-items: center;
+    //background-color: rgb(183, 173, 173);
+    //padding-top: 70px;
     margin-bottom: 70px;
-    //background-color: rgb(71, 78, 78);
 
     &__info{
         color: black;
-        //text-align: end;
-        //padding-bottom: 50vh;
-        margin-bottom: 50vh;
+        margin-bottom: 30vh;
         right: 0;
         left: 50vw;
-        //margin-right: -50vw;
-        //background-color: rgb(220, 247, 247);
-        //width: 50%;
-        //width: 40vw;
         display: flex;
         flex-direction: column;
         align-items: center;
-        // align-items: end;
-        // padding-right: 80px;
+        gap: 10px;
 
         &--title{
             font-size: 40px;
@@ -33,12 +21,13 @@
         }
 
         &--description{
-            margin-bottom: 20px;
+            //margin-bottom: 20px;
             font-size: 20px;
+            padding: 0 50px;
         }
 
         &--technologies{
-
+            color: grey;
         }
     }
 
@@ -48,13 +37,13 @@
 
         &__github, &__website {
             font-size: 25px;
-            color: rgb(190, 211, 215);
+            //color: rgb(190, 211, 215);
+            color: rgb(180, 201, 212);
         }
     }
 
     &__image{
-       // width: 700px;
-       width: 50%;
+        width: 50%;
         border: 5px solid rgb(152, 194, 194); 
     }
 }
