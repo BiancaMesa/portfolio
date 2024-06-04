@@ -9,14 +9,20 @@
     margin-bottom: 70px;
 
     &__info{
-        //margin-top: 50px;
         color: black;
-        //align-self: center;
-        text-align: end;
-        padding-bottom: 50vh;
-        margin-right: -8vw;
-        //background-color: aqua;
+        //text-align: end;
+        //padding-bottom: 50vh;
+        margin-bottom: 50vh;
+        right: 0;
+        left: 50vw;
+        //margin-right: -50vw;
+        background-color: rgb(220, 247, 247);
         //width: 50%;
+        //width: 40vw;
+        //text-align: end;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
         &--title{
             font-size: 40px;
