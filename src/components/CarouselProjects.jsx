@@ -1,13 +1,14 @@
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../scss/components/CarouselProjects.scss";
-import rickAndMorty from "../images/rick2.png";
+import rickAndMorty from "../images/rick5.png";
 import catCharity from "../images/cat_charity2.png";
-import grogu from "../images/grogu.png";
-import animeFinder from "../images/anime_finder.png";
-import guessTheNumber from "../images/guess_the_number.png";
-import pawsomeProfileCards from "../images/pawsome_profile_cards.png";
-import findACountry from "../images/find_a_country.png";
+import grogu from "../images/grogu9.png";
+import animeFinder from "../images/anime_finder8.png";
+import guessTheNumber from "../images/guess_the_number5.png";
+import pawsomeProfileCards from "../images/pawsome_profile_cards6.png";
+import findACountry from "../images/find_a_country9.png";
+import proyectosPaintones from "../images/proyectos_paintones4.png";
 
 
 
@@ -62,6 +63,13 @@ function CarouselProjects () {
       "description": "Project Description",
       "technologies": "tech used icons",
       "alt": "Eigth slide"
+    },
+    {
+      "image": proyectosPaintones,
+      "title": "Proyectos Paintones",
+      "description": "Project Description",
+      "technologies": "tech used icons",
+      "alt": "Eighth slide"
     }
   ];
 
