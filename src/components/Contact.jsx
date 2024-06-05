@@ -1,12 +1,18 @@
 import "../scss/components/Contact.scss";
-import { useForm, ValidationError } from '@formspree/react';
+//import { useForm, ValidationError } from '@formspree/react';
 
 function Contact() {
-  const [state, handleSubmit] = useForm("mvoejdwn");
+ 
+  // const [state, submit, reset] = useForm('{"https://formspree.io/f/mvoejdwn"}');
 
-  if (state.succeeded) {
-    return <p>Thanks for reaching out!</p>;
-}
+//   if (state.succeeded) {
+//     return (
+//       <>
+//         <p>Thanks for reaching out!</p>
+//       </>
+//     );
+// }
+
 
   return (
     <section className="contactSection">
@@ -16,60 +22,51 @@ function Contact() {
         
         <form 
           className="contactSection__form" 
-          onSubmit={handleSubmit}
+          //onSubmit={submit}
+          action="https://formspree.io/f/mvoejdwn"
+          method="POST"
         >
           <div className="contactSection__form--element">
             <label className="elementTitle" htmlFor="name">Full Name</label>
             <input className="elementInput" type="text" placeholder="Carolina Hicks" name="name" id="name" required/>
-            <ValidationError 
+            {/* <ValidationError 
               prefix="Name" 
               field="name"
               errors={state.errors}
-            />
+            /> */}
           </div>
          
-
-          {/* <div className="contactSection__form--element">
-            <label className="elementTitle" htmlFor="lastName">Last Name</label>
-            <input className="elementInput" type="text" placeholder="Hicks" name="lastName" id="lastName" required/>
-          </div> */}
-          
           <div className="contactSection__form--element">
             <label className="elementTitle" htmlFor="email">Email</label>
             <input className="elementInput" type="email" placeholder="carohicks@gmail.com" name="email" id="email" required/>
-            <ValidationError 
+            {/* <ValidationError 
               prefix="Email" 
               field="email"
               errors={state.errors}
-            />
+            /> */}
           </div>
-          
-          {/* <div className="contactSection__form--element">
-            <label className="elementTitle" htmlFor="number">Telephone Number</label>
-            <input className="elementInput" type="number" placeholder="+44 789 09 74 55" name="number" id="number" />
-          </div> */}
           
           <div className="contactSection__form--element">
             <label className="elementTitle"   htmlFor="subject">Subject</label>
             <input className="elementInput" type="text" placeholder="Subject" name="subject" id="subject" required/>
-            <ValidationError 
+            {/* <ValidationError 
               prefix="Subject" 
               field="subject"
               errors={state.errors}
-            />
+            /> */}
           </div>
           
           <div className="contactSection__form--element">
             <label className="elementTitle" htmlFor="message">Message</label>
             <textarea className="elementInput" rows="10" cols="33" placeholder="Your message" name="message" id="message" required></textarea>
-            <ValidationError 
+            {/* <ValidationError 
               prefix="Message" 
               field="message"
               errors={state.errors}
-            />
+            /> */}
           </div>
   
-          <button className="contactSection__form--button"  type="submit" disabled={state.submitting}>Submit</button>
+          <button className="contactSection__form--button"  type="submit">Submit</button>
           
 
           
