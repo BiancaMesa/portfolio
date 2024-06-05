@@ -2,6 +2,8 @@ import "../scss/components/Passions.scss";
 import animals from "../images/animals2.jpg";
 import music from "../images/music.png";
 import yoga from "../images/yoga5.png";
+import podcast from "../images/podcast.jpeg";
+import skincare from "../images/skincare2.jpeg";
 
 function Passions() {
   return (
@@ -20,8 +22,19 @@ function Passions() {
             </div>
 
             <div className="passionThree">
-                <img className="passionTwo__image" src={yoga} alt="yoga" />
-                <h3 className="passionTwo__title">Yoga</h3>
+                <img className="passionThree__image" src={yoga} alt="yoga" />
+                <h3 className="passionThree__title">Yoga</h3>
+            </div>
+
+            <div className="passionFour">
+                <img className="passionFour__image" src={podcast} alt="yoga" />
+                <h3 className="passionFour__title">Podcasts</h3>
+            </div>
+
+
+            <div className="passionFive">
+                <img className="passionFive__image" src={skincare} alt="skincare" />
+                <h3 className="passionFive__title">Skincare</h3>
             </div>
 
         </div>
