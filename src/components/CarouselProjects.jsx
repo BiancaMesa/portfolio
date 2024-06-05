@@ -118,7 +118,7 @@ function CarouselProjects () {
             </div>
           </Carousel.Caption>
           
-         <img src={projectSlide.image} className="project__image" alt={projectSlide.alt}  />
+         <img src={projectSlide.image} className="project__image" alt={projectSlide.alt} />
         </Carousel.Item>
       ))}
     </Carousel>

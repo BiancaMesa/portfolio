@@ -32,27 +32,31 @@ function Contact() {
           <button className="contactSection__form--button"  type="submit">Submit</button>  
         </form> */}
 
-        <form className="contactSection__form" >
+        <form 
+          className="contactSection__form" 
+          action="https://formspree.io/f/mvoejdwn"
+          method="POST"
+        >
           <div className="contactSection__form--element">
-            <label className="elementTitle" htmlFor="name">Name</label>
-            <input className="elementInput" type="text" placeholder="Caro" name="name" id="name" required/>
+            <label className="elementTitle" htmlFor="name">Full Name</label>
+            <input className="elementInput" type="text" placeholder="Carolina Hicks" name="name" id="name" required/>
           </div>
          
 
-          <div className="contactSection__form--element">
+          {/* <div className="contactSection__form--element">
             <label className="elementTitle" htmlFor="lastName">Last Name</label>
             <input className="elementInput" type="text" placeholder="Hicks" name="lastName" id="lastName" required/>
-          </div>
+          </div> */}
           
           <div className="contactSection__form--element">
             <label className="elementTitle" htmlFor="email">Email</label>
             <input className="elementInput" type="email" placeholder="carohicks@gmail.com" name="email" id="email" required/>
           </div>
           
-          <div className="contactSection__form--element">
+          {/* <div className="contactSection__form--element">
             <label className="elementTitle" htmlFor="number">Telephone Number</label>
             <input className="elementInput" type="number" placeholder="+44 789 09 74 55" name="number" id="number" />
-          </div>
+          </div> */}
           
           <div className="contactSection__form--element">
             <label className="elementTitle"   htmlFor="subject">Subject</label>
