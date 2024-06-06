@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import '../scss/App.scss'; 
 import Header from './Header';
 import Hero from './Hero';
-import GalleryGrid from './GalleryGrid';
+import AnimatedMarquee from './AnimatedMarquee';
 import Projects from './Projects';
 import About from './About';
 import Footer from './Footer';
@@ -21,7 +21,7 @@ function App() {
         <>
           <Header/>
           <Hero/>
-          <GalleryGrid/>
+          <AnimatedMarquee/>
           <Projects/>
           <About/>
           <Resume/>
