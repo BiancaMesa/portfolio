@@ -54,7 +54,7 @@ function Resume() {
                         <li>Collaboration</li>
                         <li>Team spirit</li>
                         <li>Determination</li>
-                        
+                        <li>Driven</li>
                     </ul>
                 </div>
             </section>

@@ -10,7 +10,7 @@ function Values() {
             <img className="valuesSection__image" src={underwater} alt="underwater_img" />
 
             <div className="valuesSection__wrapper">
-                <h1 className="valuesSection__wrapper--title">Values</h1>
+                <h1 className="valuesSection__wrapper--title">VALUES</h1>
 
                 <div className="valueOne">
                     <h3 className="valueOne__title">

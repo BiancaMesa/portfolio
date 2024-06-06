@@ -1,12 +1,6 @@
 .valuesSection{
     display: flex;
 
-    // &__title{
-    //     font-size: 40px;
-    //     text-align: center;
-    //     margin-bottom: 40px;
-    // }
-
     &__image{
         width: 50%;
         //height: 100%;
@@ -25,10 +19,16 @@
         overflow:auto;
         
         &--title{
-            font-size: 40px;
-            //text-align: center;
-            //margin-bottom: 60px;
-            //align-items: self-start;
+            font-size: 60px;
+            font-weight: 800;
+            //font-weight: bold;
+            font-family: "Poppins";
+            letter-spacing: -3px;
+            font-style: italic;
+            color: rgb(189, 157, 198);
+            // border: 0.8px solid black;
+            // padding: 15px 40px;
+            // border-radius: 50%;
         }
     
         .valueOne{
