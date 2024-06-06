@@ -7,6 +7,7 @@ import sassIcon from "../images/sass1.png";
 import gitIcon from "../images/git1.png";
 import nodejsIcon from "../images/nodejs1.png";
 import mySQLIcon from "../images/mysql.png";
+import bootstrap from "../images/bootstrap.png";
 
 function Resume() {
   return (
@@ -15,9 +16,9 @@ function Resume() {
         {/* <p>Lorem....</p> */}
 
         <div className="resume">
-            <div className="resume__techs">
+            <section className="resume__techs">
                 <h2 className="resume__techs--title">Technologies and tools</h2>
-                <h3>Love them or hate them?</h3>
+                {/* <h3>Love them or hate them?</h3> */}
                 <div className="resume__techs--techs">
                     {/* <i className="fa-brands fa-js techIcon"></i>
                     <i className="fa-brands fa-react techIcon"></i>
@@ -32,17 +33,35 @@ function Resume() {
                     <img className="techIconImage" src={htmlIcon} alt="html_icon" />
                     <img className="techIconImage" src={cssIcon} alt="css_icon" />
                     <img className="techIconImage" src={sassIcon} alt="sass_icon" />
+                    <img className="techIconImage" src={bootstrap} alt="bootstrap_icon" />
                     <img className="techIconImage" src={gitIcon} alt="git_icon" />
                     <img className="techIconImage" src={nodejsIcon} alt="nodejs_icon" />
                     <img className="techIconImage" src={mySQLIcon} alt="mySQL_icon" />
                 </div>
                 {/* <p className="resume__techs--text">Icons of techs</p> */}
-            </div>
+            </section>
             
-            <div className="resume__skills">
+            <section className="resume__skills">
                 <h2 className="resume__skills--title">Soft skills</h2>
-                <p className="resume__skills--text">List of soft skills</p>
-            </div>
+                {/* <p className="resume__skills--text">List of soft skills</p> */}
+                <div className="skills">
+                    <ul className="skills__listOne">
+                        <li>Resourceful</li>
+                        <li>Committed</li>
+                        <li>Flexibility</li>
+                        <li>Adaptability</li>
+                        <li>Organization</li>
+                        <li>Detail-oriented</li>
+                    </ul>
+                    <ul className="skills__listTwo">
+                        <li>Creativity</li>
+                        <li>Collaboration</li>
+                        <li>Team spirit</li>
+                        <li>Determination</li>
+                        
+                    </ul>
+                </div>
+            </section>
 
             {/* <div className="resume__experience">
                 <h2 className="resume__experience--title">Experience</h2>
