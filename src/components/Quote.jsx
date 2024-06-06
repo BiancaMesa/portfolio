@@ -1,10 +1,9 @@
 import "../scss/components/Quote.scss";
-import quoteVideo from "../images/video1.mp4";
+import quoteVideo from "../video/video1.mp4";
 
 function Quote() {
   return (
     <section className="quoteSection">
-        {/* <img className="quoteSection__image" src="/public/yoga_sunset.jpg" alt="yoga_sunset" /> */}
 
         <video className="quoteSection__video" autoPlay loop muted>
             <source src={quoteVideo} type="video/mp4"/>

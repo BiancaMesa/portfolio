@@ -98,7 +98,7 @@ function CarouselProjects () {
     <Carousel
       prevIcon={<FontAwesomeIcon icon={faChevronLeft} className="chevronIconLeft" />}
       nextIcon={<FontAwesomeIcon icon={faChevronRight} className="chevronIconRight"/>}
-      interval={null}
+      // interval={null}
     >
 
       {projectSlides.map((projectSlide, index) => (
