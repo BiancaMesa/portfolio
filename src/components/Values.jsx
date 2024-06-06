@@ -14,28 +14,28 @@ function Values() {
 
                 <div className="valueOne">
                     <h3 className="valueOne__title">
-                        <img className="valueSparkle" src={sparkle} alt="sparkle" /> KINDNESS <img className="valueSparkle" src={sparkle} alt="sparkle" />
+                        <img className="valueSparkle" src={sparkle} alt="sparkle" /> KINDNESS, EMPATHY & RESPECT <img className="valueSparkle" src={sparkle} alt="sparkle" />
                     </h3>
                     <p className="valueOne__text">Treating others in a way that proves there's goodness & beauty in the world</p>
                 </div>
 
                 <div className="valueTwo">
                     <h3 className="valueTwo__title">
-                        <img className="valueSparkle" src={sparkle} alt="sparkle" /> RESPECT <img className="valueSparkle" src={sparkle} alt="sparkle" /> 
+                        <img className="valueSparkle" src={sparkle} alt="sparkle" /> DEDICATION <img className="valueSparkle" src={sparkle} alt="sparkle" /> 
                     </h3>
-                    <p className="valueTwo__text">Treating others in a way that honors their dignigty & individuality even if we see the world differently</p>
+                    <p className="valueTwo__text">Treating others in a way that honors their dignigty & individuality even if we see the world differently/ Whatever the endeavor I embark on I am passionate about it and I commit to it</p>
                 </div>
 
                 <div className="valueThree">
                     <h3 className="valueThree__title">
-                        <img className="valueSparkle" src={sparkle} alt="sparkle" /> DEDICATION <img className="valueSparkle" src={sparkle} alt="sparkle" />
+                        <img className="valueSparkle" src={sparkle} alt="sparkle" /> BEAUTY/ COLLABORATION <img className="valueSparkle" src={sparkle} alt="sparkle" />
                     </h3>
-                    <p className="valueThree__text">....</p>
+                    <p className="valueThree__text">Bringing beauty to ..</p>
                 </div>
 
                 <div className="valueFour">
                     <h3 className="valueFour__title">
-                        <img className="valueSparkle" src={sparkle} alt="sparkle" /> EMPATHY & EQUALITY <img className="valueSparkle" src={sparkle} alt="sparkle" />
+                        <img className="valueSparkle" src={sparkle} alt="sparkle" /> GROWTH / QUALITY <img className="valueSparkle" src={sparkle} alt="sparkle" />
                     </h3>
                     <p className="valueFour__text">Towards self & others</p>
                 </div>
