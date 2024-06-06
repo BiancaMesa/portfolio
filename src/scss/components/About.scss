@@ -66,6 +66,12 @@
                 border-radius: 30px;
                 padding: 10px 20px;
                 cursor: pointer;
+
+                &:hover{
+                    // background-color: transparent;
+                    background-color: rgb(246, 241, 246);
+                    color: black;
+                }
             }
 
         }

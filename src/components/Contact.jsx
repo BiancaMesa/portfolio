@@ -58,7 +58,7 @@ function Contact() {
           
           <div className="contactSection__form--element">
             <label className="elementTitle" htmlFor="message">Message</label>
-            <textarea className="elementInput" rows="10" cols="33" placeholder="Your message" name="message" id="message" required></textarea>
+            <textarea className="elementInput" rows="8" cols="33" placeholder="Your message" name="message" id="message" required></textarea>
             {/* <ValidationError 
               prefix="Message" 
               field="message"
