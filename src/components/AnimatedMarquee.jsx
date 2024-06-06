@@ -3,17 +3,18 @@ import Marquee from "react-fast-marquee";
 
 function AnimatedMarquee() {
   return (
-    // <div >
+    // <div className="marqueeContainer">
     <Marquee className="marquee"> 
-      <span>CREATIVE</span> 
-      <i className="fa-solid fa-moon"></i>
-      <span>ENTHUSIAST</span> 
-      <i className="fa-solid fa-moon"></i>
-      <span>SUPPORTIVE</span>
-      <i className="fa-solid fa-moon"></i>
-      <span>SOLUTION-ORIENTED</span>
-    </Marquee>
-   // </div >
+      <span className="marquee__item">CREATIVE</span> 
+      <i className="fa-solid fa-moon marquee__item"></i>
+      <span className="marquee__item">ENTHUSIAST</span> 
+      <i className="fa-solid fa-moon marquee__item"></i>
+      <span className="marquee__item">SUPPORTIVE</span>
+      <i className="fa-solid fa-moon marquee__item"></i>
+      <span className="marquee__item">SOLUTION-ORIENTED</span>
+      <i className="fa-solid fa-moon marquee__item"></i>
+  </Marquee>
+    // </div>
   )
 }
 
