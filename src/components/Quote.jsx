@@ -9,14 +9,15 @@ function Quote() {
             <source src={quoteVideo} type="video/mp4"/>
         </video>
 
-        {/* <h2 className="quoteSection__quote">Take care of your purpose and your purpose will take care of you</h2> */}
-        <h1>What makes me unique</h1>
+        <h1 className="quoteSection__title">We are all unique</h1>
+        <h1 className="quoteSection__title2">and special</h1>
+
+         <h2 className="quoteSection__subtitle">This is what differentiates me</h2>
 
         <div className="quoteSection__english">
           <h2 className="quoteSection__english--title">English</h2>
           <p className="quoteSection__english--description">Lorem...</p>
         </div>
-
 
         <div className="quoteSection__coaching">
           <h2 className="quoteSection__coaching--title">Coaching</h2>
