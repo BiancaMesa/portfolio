@@ -1,7 +1,39 @@
-// .header {
+.menu{
+    width: 50%;
+    align-content: center;
 
-//     &__menu{
-//         list-style: none;
-//     }
+    &__list {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        //align-content: center;
+       // align-items: center;
+        //width: 50%; 
+        color: white; 
+        font-weight: bold;
+        font-size: 19px;
+        cursor: pointer;
+    
+        &--item {
+            position: relative; 
 
-// }
+            &::after {
+                align-self: center;
+                content: "";
+                position: absolute;
+                bottom: -6px; 
+                left: 50%;
+                transform: translateX(-50%);
+                width: .25rem;
+                height: .25rem;
+                background-color: transparent;
+                border-radius: 50%;
+                transition: background-color 0.3s ease;  
+            }
+    
+            &:hover::after{
+                background-color: white;
+            }
+        }  
+    }
+}

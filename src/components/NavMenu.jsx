@@ -1,10 +1,11 @@
-//import "../scss/components/NavMenu.scss";
+import "../scss/components/NavMenu.scss";
 import {Link} from "react-scroll";
 
 function NavMenu() {
   return (
-    <ul className="header__menu">
-      <li className="header__menu--item">
+    <nav className="menu">
+      <ul className="menu__list">
+      <li className="menu__list--item">
         <Link 
           // className="nav-link"
           to="projects"
@@ -15,7 +16,7 @@ function NavMenu() {
           PROJECTS
         </Link>
       </li>
-      <li className="header__menu--item">
+      <li className="menu__list--item">
         <Link
           // className="nav-link"
           to="skills"
@@ -26,7 +27,7 @@ function NavMenu() {
           SKILLS
         </Link>
       </li>
-      <li className="header__menu--item">
+      <li className="menu__list--item">
         <Link
           // className="nav-link"
           to="about"
@@ -37,7 +38,7 @@ function NavMenu() {
           ABOUT ME
         </Link>
       </li>
-      <li className="header__menu--item">
+      <li className="menu__list--item">
         <Link
           // className="nav-link"
           to="values"
@@ -48,7 +49,7 @@ function NavMenu() {
           VALUES
         </Link>
       </li>
-      <li className="header__menu--item">
+      <li className="menu__list--item">
         <Link
           // className="nav-link"
           to="passions"
@@ -59,7 +60,7 @@ function NavMenu() {
           PASSIONS
         </Link>
       </li>
-      <li className="header__menu--item">
+      <li className="menu__list--item">
         <Link
           // className="nav-link"
           to="contact"
@@ -71,6 +72,8 @@ function NavMenu() {
         </Link>
       </li>
     </ul>
+    </nav>
+    
   )
 }
 
