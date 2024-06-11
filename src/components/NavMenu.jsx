@@ -16,26 +16,26 @@ function NavMenu({isMobileMenuOpen}) {
         <Link to="about" smooth={true} duration={500}>
           ABOUT ME
 
-          <ul className={`dropdown__content ${isMobileMenuOpen ? "menuOpen__dropdownContent " : ""}`}>
-            <li className="menuOpen__dropdownContent--item ">
+          <ul className="dropdown__content">
+            <li className="dropdown__content--item ">
               <Link to="skills" smooth={true} duration={500} >
                 SKILLS
               </Link>
             </li>
 
-            <li className="menuOpen__dropdownContent--item ">
+            <li className="dropdown__content--item ">
               <Link to="unique" smooth={true} duration={500} >
                 UNIQUE
               </Link>
             </li>
 
-            <li className="menuOpen__dropdownContent--item ">     
+            <li className="dropdown__content--item ">    
               <Link to="values" smooth={true} duration={500} >
                 VALUES
               </Link>
             </li>
             
-            <li className="menuOpen__dropdownContent--item ">
+            <li className="dropdown__content--item ">
               <Link to="passions" smooth={true} duration={500} >
                 PASSIONS
               </Link>

@@ -76,6 +76,9 @@
 }
 
 
+
+
+
 .menuOpen{
 
     @media (max-width: 768px) {
@@ -98,7 +101,8 @@
                 align-items: center; 
                 // position: absolute;
                 // z-index: 1;
-                color: rgb(182, 165, 186);
+                //color: rgb(182, 165, 186);
+                color: rgb(174, 201, 227);
                 padding: 50px 0 20px 0;
                 //margin-top: 10px; 
                 gap: 10px;
@@ -109,7 +113,8 @@
                     //margin-top: 10px; 
     
                     &:hover{
-                        color: rgb(93, 81, 107); 
+                        //color: rgb(93, 81, 107); 
+                        color: rgb(134, 160, 184);
                     }
                 }
             }
@@ -118,6 +123,8 @@
     }
 }
 
+
+// **** MIRAR ****
 @media (max-width: 768px) {
     .menu {
         display: none; 
@@ -127,7 +134,6 @@
         display: flex;
     }
 }
-
 
 .hidden{
     display: none;
