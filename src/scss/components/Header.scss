@@ -5,72 +5,34 @@
     display: flex;
     justify-content: space-between;
 
+    @media (max-width: 768px) {
+        display: flex; 
+    }
+
     &__mainName{
         color: white;
         cursor: pointer;
     }
 
-    // &__menu{
-    //     list-style: none;
-    //     display: flex;
-    //     justify-content: space-between;
-    //     align-items: center;
-    //     width: 50%; 
-    //     color: white; 
-    //     font-weight: bold;
-    //     font-size: 19px;
-    //     cursor: pointer;
+    &__burgerMenu{
+        display: none; 
+        cursor: pointer; 
 
-    //     &--item {
+        @media (max-width: 768px) {
+            display: flex; 
+            align-items: center;
+        }
 
-            
-    //         // }
-            
-    //         // &::after {
-    //         //     color: black;
-    //         //     content: "";
-    //         //     position: absolute;
-    //         //     bottom: -10px; /* Adjust this value as needed */
-    //         //     left: 50%;
-    //         //     transform: translateX(-50%);
-    //         //     width: 8px;
-    //         //     height: 8px;
-    //         //     background-color: transparent;
-    //         //     border-radius: 50%;
-    //         //     transition: background-color 0.3s ease;
-    //         // }
-
-    //         // &:hover::after{
-    //         //     background-color: black;
-    //         // }
-
-    //         // &:hover{
-    //         //     // border-bottom: 1px dotted black;
-    //         //     // text-decoration: none;
-    //         //     text-decoration: underline;
-    //         //     text-decoration-style: dotted;
-    //         //     color: black;
-    //         // }
-            
-    //     }
-    // }
-
+        &--icon{
+            font-size: 30px;
+            color: white;
+        }
+    }
 }
 
-// .nav ul li::after {
-//     color: black;
-//     content: "";
-//     position: absolute;
-//     bottom: -10px; /* Adjust this value as needed */
-//     left: 50%;
-//     transform: translateX(-50%);
-//     width: 8px;
-//     height: 8px;
-//     background-color: transparent;
-//     border-radius: 50%;
-//     transition: background-color 0.3s ease;
-// }
 
-// .nav ul li:hover::after{
-//     background-color: black;
+// @media (max-width: 768px) {
+//     .header .burgerMenu {
+//         display: block; 
+//     }
 // }
