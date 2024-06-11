@@ -16,7 +16,8 @@ function NavMenu() {
           PROJECTS
         </Link>
       </li>
-      <li className="menu__list--item">
+
+      {/* <li className="menu__list--item hidden">
         <Link
           // className="nav-link"
           to="skills"
@@ -26,8 +27,9 @@ function NavMenu() {
           >
           SKILLS
         </Link>
-      </li>
-      <li className="menu__list--item">
+      </li> */}
+
+      <li className="menu__list--item dropdown">
         <Link
           // className="nav-link"
           to="about"
@@ -36,9 +38,17 @@ function NavMenu() {
           // onClick={toggleMenu}
           >
           ABOUT ME
+          <ul className="dropdown__content">
+            <li className="dropdown__content--item">SKILLS</li>
+            <li className="dropdown__content--item">UNIQUE</li>
+            <li className="dropdown__content--item">VALUES</li>
+            <li className="dropdown__content--item">PASSIONS</li>
+          </ul>
         </Link>
       </li>
-      <li className="menu__list--item">
+
+
+      {/* <li className="menu__list--item hidden">
         <Link
           // className="nav-link"
           to="values"
@@ -49,7 +59,7 @@ function NavMenu() {
           VALUES
         </Link>
       </li>
-      <li className="menu__list--item">
+      <li className="menu__list--item hidden">
         <Link
           // className="nav-link"
           to="passions"
@@ -59,7 +69,8 @@ function NavMenu() {
           >
           PASSIONS
         </Link>
-      </li>
+      </li> */}
+
       <li className="menu__list--item">
         <Link
           // className="nav-link"
