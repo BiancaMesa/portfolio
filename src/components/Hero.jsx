@@ -3,6 +3,8 @@ import "../scss/components/Hero.scss";
 import hero1 from "../images/ocean1.jpg";
 import hero2 from "../images/ocean2.jpg";
 import {Link} from "react-scroll";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronUp } from '@fortawesome/free-solid-svg-icons'; 
 //import biancaHero from "../images/bianca6.jpeg";
 
 function Hero() {
@@ -23,11 +25,7 @@ function Hero() {
             <p className="heroInfo__subtext"></p>
             
               <button className="heroInfo__button">
-                <Link 
-                  to="about"
-                  smooth={true}
-                  duration={500}
-                >
+                <Link to="about" smooth={true} duration={500} >
                   Know More
                 </Link>
               </button>
@@ -38,6 +36,16 @@ function Hero() {
        
         
     </div>
+
+    <Link to="header" smooth={true} duration={500}>
+      <FontAwesomeIcon icon={faChevronUp} className="scrollArrow" />
+    </Link>
+
+
+    {/* <a href="">
+      <FontAwesomeIcon icon={faChevronUp} className="scrollArrow" />
+    </a> */}
+    
    </section>
   )
 }
