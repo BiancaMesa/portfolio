@@ -21,7 +21,7 @@ function Values() {
 
                 <div className="valueTwo">
                     <h3 className="valueTwo__title">
-                        <img className="valueSparkle" src={sparkle} alt="sparkle" /> DEDICATION <img className="valueSparkle" src={sparkle} alt="sparkle" /> 
+                        <img className="valueSparkle" src={sparkle} alt="sparkle" /> DEDICATION & PURPOSE <img className="valueSparkle" src={sparkle} alt="sparkle" /> 
                     </h3>
                     <p className="valueTwo__text">Treating others in a way that honors their dignigty & individuality even if we see the world differently/ Whatever the endeavor I embark on I am passionate about it and I commit to it</p>
                 </div>

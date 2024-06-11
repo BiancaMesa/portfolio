@@ -2,6 +2,7 @@
 import "../scss/components/Hero.scss";
 import hero1 from "../images/ocean1.jpg";
 import hero2 from "../images/ocean2.jpg";
+import {Link} from "react-scroll";
 //import biancaHero from "../images/bianca6.jpeg";
 
 function Hero() {
@@ -22,7 +23,15 @@ function Hero() {
             <p className="heroInfo__subtext"></p>
             
               <button className="heroInfo__button">
-              Know More
+                <Link 
+                  // className="nav-link"
+                  to="about"
+                  smooth={true}
+                  duration={500}
+                  // onClick={toggleMenu}
+                  >
+                  Know More
+                </Link>
               {/* <NavLink to="/home#about">Know More</NavLink> */}
               </button>
           </div>

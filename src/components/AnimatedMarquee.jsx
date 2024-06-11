@@ -13,8 +13,8 @@ function AnimatedMarquee() {
       <i className="fa-solid fa-moon marquee__item"></i>
       <span className="marquee__item">SOLUTION-ORIENTED</span>
       <i className="fa-solid fa-moon marquee__item"></i>
-  </Marquee>
-    // </div>
+    </Marquee>
+    // {/* </div> */}
   )
 }
 

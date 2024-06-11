@@ -3,7 +3,7 @@ import CarouselProjects from './CarouselProjects';
 
 function Projects() {
   return (
-    <section className="projects">
+    <section className="projects" id="projects">
         <h1 className="projects__title">PROJECTS</h1>
 
         <CarouselProjects />

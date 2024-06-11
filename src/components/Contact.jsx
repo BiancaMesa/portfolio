@@ -15,7 +15,7 @@ function Contact() {
 
 
   return (
-    <section className="contactSection">
+    <section className="contactSection" id="contact">
         <h1 className="contactSection__title">Let's get in touch!</h1>
         <p className="contactSection__subtitle">Feel free to reach out for collaborations, inquires, or just a friendly coding chat anytime!</p>
         

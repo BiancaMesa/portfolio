@@ -49,7 +49,7 @@ function CarouselProjects () {
     {
       "image": animeFinder,
       "title": "Anime Finder",
-      "description": "Fron-End web application developed with JavaScript to search for anime series with and option to save the user's favorites.",
+      "description": "Fron-End web application developed with JavaScript to search for anime series with an option to save the user's favorites.",
       "technologies": "JavaScript | CSS",
       "github": "https://github.com/BiancaMesa/anime-finder",
       "website": "https://biancamesa.github.io/anime-finder/",

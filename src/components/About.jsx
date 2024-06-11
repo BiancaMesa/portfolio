@@ -5,7 +5,7 @@ import aboutMe from "../images/about_me.png";
 
 function About() {
   return (
-    <section className="aboutSection" id="#about">
+    <section className="aboutSection" id="about">
         {/* <section className="aboutSection__section1"> */}
           <div className="aboutSection__wrapper">
             <img className="aboutSection__wrapper--title" src={aboutMe} alt="aboutMe" />
