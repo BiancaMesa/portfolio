@@ -20,12 +20,23 @@
 
         @media (max-width: 768px) {
             display: flex; 
+            color: black;
             align-items: center;
+            position: absolute;
+            right: 1rem;
+            top: 1rem; 
+            z-index: 2; 
         }
 
         &--icon{
             font-size: 30px;
-            color: white;
+            // color: white;
+
+            @media (max-width: 768px) {
+               color: black;
+                // position: absolute; 
+                // z-index: 1;
+            }
         }
     }
 }

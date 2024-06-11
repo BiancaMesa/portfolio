@@ -18,7 +18,6 @@ function Header() {
         <h1 className="header__mainName">Bianca Mesa</h1>
         <div className="header__burgerMenu">
           <FontAwesomeIcon icon={isMobileMenuOpen ? faXmark : faBars} className="header__burgerMenu--icon" onClick={toggleMobileMenu}/>
-          {/* <FontAwesomeIcon icon={faXmark} className="header__burgerMenu--icon" onClick={toggleMobileMenu}/> */}
         </div>
         <NavMenu isMobileMenuOpen={isMobileMenuOpen}/> 
     </header>
