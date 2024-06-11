@@ -4,7 +4,7 @@ import sparkle from "../images/sparkle.png";
 
 function Values() {
   return (
-    <section className="valuesSection">
+    <section className="valuesSection" id="values">
         {/* <h1 className="valuesSection__title">Values</h1> */}
 
             <img className="valuesSection__image" src={underwater} alt="underwater_img" />

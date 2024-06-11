@@ -11,7 +11,7 @@ import bootstrap from "../images/bootstrap.png";
 
 function Resume() {
   return (
-    <section className="resumeContainer">
+    <section className="resumeContainer" id="skills">
         {/* <h1 className="resumeContainer__title">Résumé</h1> */}
         {/* <p>Lorem....</p> */}
 

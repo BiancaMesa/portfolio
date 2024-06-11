@@ -7,7 +7,7 @@ import skincare from "../images/skincare2.jpeg";
 
 function Passions() {
   return (
-    <section className="passionsSection">
+    <section className="passionsSection" id="passions">
         <h1 className="passionsSection__title">Passions</h1>
 
         <div className="passionsSection__wrapper">

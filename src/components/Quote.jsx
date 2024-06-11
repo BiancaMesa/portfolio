@@ -3,7 +3,7 @@ import quoteVideo from "../video/video1.mp4";
 
 function Quote() {
   return (
-    <section className="quoteSection">
+    <section className="quoteSection" id="unique">
 
         <video className="quoteSection__video" autoPlay loop muted>
             <source src={quoteVideo} type="video/mp4"/>
