@@ -24,15 +24,12 @@ function Hero() {
             
               <button className="heroInfo__button">
                 <Link 
-                  // className="nav-link"
                   to="about"
                   smooth={true}
                   duration={500}
-                  // onClick={toggleMenu}
-                  >
+                >
                   Know More
                 </Link>
-              {/* <NavLink to="/home#about">Know More</NavLink> */}
               </button>
           </div>
 
