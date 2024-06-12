@@ -67,6 +67,11 @@
 
         @media (max-width: 600px) {
             width: 70%; 
+            top: -65vh;
+        }
+
+        @media (max-width: 550px) {
+            width: 70%; 
             top: -52vh;
         }
         
@@ -83,8 +88,10 @@
             font-size: 1.7rem;
             margin-bottom: 20px;
             color: white;
-            
 
+            @media (max-width: 550px) {
+                font-size: 1.5rem;
+            }
         }
 
         &--button{
@@ -99,28 +106,6 @@
                 color: white;
             }
         }
-
-        // &--subContainer{
-        //     display: flex;
-        //     justify-content: space-around;
-        //     align-items: center;
-
-        //     .heroInfo{
-
-        //         &__subtext{
-        //             margin-bottom: 20px;
-        //         }
-                
-              
-        //     }
-        // }
-
-        // .heroInfoCardImage{
-        //     width: 170px;
-        //     transform: rotate(10deg);
-        //     margin-left: 300px;
-        //     border: 3px solid white;
-        // }
     }
 }
 
