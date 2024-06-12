@@ -20,19 +20,19 @@ function Hero() {
         <p className="hero__infoCard--intro">HI, THIS IS BIANCA</p>
         <h1 className="hero__infoCard--statement">A PASSIONATE FRONT-END DEVELOPER WITH A BIG THING FOR DESIGN</h1>
         
-       <div className="hero__infoCard--subContainer">
+       {/* <div className="hero__infoCard--subContainer">
           <div className="heroInfo">
             <p className="heroInfo__subtext"></p>
-            
-              <button className="heroInfo__button">
+             */}
+              <button className="hero__infoCard--button">
                 <Link to="about" smooth={true} duration={500} >
                   Know More
                 </Link>
               </button>
-          </div>
+          {/* </div> */}
 
           {/* <img className="heroInfoCardImage" src={biancaHero} alt="biancaHero" /> */}
-       </div>
+       {/* </div> */}
        
         
     </div>
