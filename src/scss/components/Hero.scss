@@ -80,6 +80,16 @@
             top: -50vh;
         }
 
+        @media (max-width: 420px) {
+            width: 85%; 
+            top: -53vh;
+        }
+
+        // @media (max-width: 364px) {
+        //     width: 85%; 
+        //     //top: -53vh;
+        // }
+
         @media (max-width: 320px) {
             width: 85%; 
             top: -59vh;
@@ -103,7 +113,11 @@
                 font-size: 1.5rem;
             }
 
-            @media (max-width: 320px) {
+            @media (max-width: 420px) {
+                font-size: 1.4rem;
+            }
+
+            @media (max-width: 364px) {
                 font-size: 1.2rem;
             }
         }
