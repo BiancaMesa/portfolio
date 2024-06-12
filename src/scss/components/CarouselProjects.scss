@@ -82,6 +82,11 @@
     color:rgb(200, 224, 233);
     font-size: 40px;
     margin-left: -100px;
+
+    @media (max-width: 500px) {
+        margin-left: 0px; 
+        margin-top: -480px; 
+    }
 }
 
 .chevronIconRight{
@@ -89,6 +94,11 @@
     color:rgb(200, 224, 233);
     font-size: 40px;
     margin-right: -100px;
+
+    @media (max-width: 500px) {
+        margin-right: 0px; 
+        margin-top: -480px; 
+    }
 }
 
 
