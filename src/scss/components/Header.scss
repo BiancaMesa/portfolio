@@ -51,12 +51,29 @@
      &__mainName {
             z-index: 2;
             font-size: 100px;
-            //color: black;
+            color: black;
             font-family: "Poppins";
             letter-spacing: -5px;
             font-weight: bold;
             padding-top: 20px;
             //line-height: 100vh;
+
+            //background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+            //background: -webkit-linear-gradient(rgb(223, 191, 241) 0%, rgb(154, 183, 202) 50%, rgb(168, 214, 243) 100%);
+            //background: -webkit-linear-gradient(rgb(194, 178, 203) 0%, rgb(208, 191, 217) 30%, rgb(139, 147, 186) 60%, rgb(139, 147, 186) 100%);
+            //background: -webkit-linear-gradient(rgb(194, 178, 203) 0%, rgb(208, 191, 217) 30%, rgb(139, 147, 186) 100%);
+            // background: -webkit-linear-gradient(rgb(194, 178, 203) 0%, rgb(208, 191, 217) 30%, rgb(177, 182, 206) 60%, rgb(139, 147, 186) 100%);
+            // background: -webkit-linear-gradient(0.5turn, rgb(144, 188, 210) 0%, rgb(196, 179, 196) 30%, rgb(192, 170, 205) 60%, rgb(139, 147, 186) 100%);
+            // background: -webkit-linear-gradient(0.5turn, rgb(144, 188, 210) 0%, rgb(168, 183, 206) 30%, rgb(200, 181, 214) 50%, rgb(192, 170, 205) 60%, rgb(139, 147, 186) 100%);
+            background: -webkit-linear-gradient(0.5turn, rgb(144, 188, 210) 0%, rgb(184, 198, 220) 20%, rgb(168, 186, 213) 30%, rgb(200, 181, 214) 50%, rgb(192, 170, 205) 60%, rgb(139, 147, 186) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+            //background-image: url("/src/images/pexels-ben-mack-6775393.jpg");
+            //background-image: url("/src/images/newyork.jpg");
+            //background-repeat: repeat;
+            // -webkit-background-clip: text;
+            // -webkit-text-fill-color: transparent;
         }
 }
 
