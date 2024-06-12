@@ -2,16 +2,19 @@
     color: black;
     background-color: rgb(198, 221, 227);
     color: rgb(255, 255, 255);
-    // background-color: rgb(236, 224, 239);
-    // color: rgb(147, 129, 154);
     padding: 15px; 
     text-align: center;
     font-size: 18px;
     font-weight: bold;
-    margin-top: -265px;
+    //margin-top: -265px;
     border: 2px solid black;
-    display: flex;
-    justify-content: space-around;
+    // display: flex;
+    // justify-content: space-around;
+   
+
+    // @media (max-width: 1000px) {
+    //     margin-top: -10vh;
+    // }
 
     &__item {
         margin-right: 100px;

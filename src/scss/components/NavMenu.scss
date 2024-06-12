@@ -10,7 +10,7 @@
         width: 50%; 
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 800px) {
         display: none;
     }
 
@@ -97,11 +97,11 @@
                 &--item {
                     font-size: 1.75rem;
     
-                    &:hover{
-                        //color: rgb(93, 81, 107); 
-                        //color: rgb(134, 160, 184);
-                        //text-decoration:underline;
-                    }
+                    // &:hover{
+                    //     color: rgb(93, 81, 107); 
+                    //     color: rgb(134, 160, 184);
+                    //     text-decoration:underline;
+                    // }
                 }
             }     
     }
@@ -110,9 +110,9 @@
 
 // **** MIRAR ****
 @media (max-width: 800px) {
-    // .menu {
-    //     display: none; 
-    // }
+    .menu {
+        display: none; 
+    }
 
     .menuOpen{
         display: flex;
