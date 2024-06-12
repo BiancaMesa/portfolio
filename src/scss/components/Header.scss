@@ -5,9 +5,11 @@
     display: flex;
     justify-content: space-between;
 
-    @media (max-width: 768px) {
+
+    @media (max-width: 800px) {
         display: flex; 
     }
+
 
     &__mainName{
         color: white;
@@ -18,7 +20,7 @@
         display: none; 
         cursor: pointer; 
 
-        @media (max-width: 768px) {
+        @media (max-width: 800px) {
             display: flex; 
             color: black;
             align-items: center;
@@ -32,7 +34,7 @@
             font-size: 30px;
             // color: white;
 
-            @media (max-width: 768px) {
+            @media (max-width: 800px) {
                color: black;
                 // position: absolute; 
                 // z-index: 1;

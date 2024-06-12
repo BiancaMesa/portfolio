@@ -2,52 +2,47 @@
     width: 30%;
     align-content: center;
 
+    @media (max-width: 1320px) {
+        width: 40%; 
+    }
+
+    @media (max-width: 1050px) {
+        width: 50%; 
+    }
+
     @media (max-width: 768px) {
         display: none;
-        //flex-direction: column;
-        // align-content: center;
-        // justify-content: center;
-       
-    
-        &__list {
-          //flex-direction: column;
-          //align-items: center;
-    
-          &--item {
-            //margin: 10px 0;
-          }
-        }
-      }
-    
-    // @media (max-width: 768px) {
-    //     width: 100%;
-    //     display: none;
-    //     flex-direction: column;
-    
-    //     &__list {
-    //       flex-direction: column;
-    //       align-items: center;
-    
-    //       &--item {
-    //         margin: 10px 0;
-    //       }
-    //     }
-    // }
+    }
+
+   
+
+  
 
     &__list {
         list-style: none;
         display: flex;
         justify-content: space-between;
-        //align-content: center;
-       // align-items: center;
         //width: 50%;
         color: white;
         font-weight: bold;
         font-size: 19px;
+        margin: 0; 
         cursor: pointer;
+
+        // @media (max-width: 1320px) {
+        //     justify-content: start;
+        //     gap: 3vw; 
+        //     width: 40vw;
+        //     margin-left: -10vw;
+        // }
 
         &--item {
             position: relative;
+
+            // @media (max-width: 1320px) {
+            //     width: 100%;
+            // }
+    
 
 
             &::after {
@@ -68,20 +63,17 @@
                 background-color: white;
                 
             }
-
         }
     }
-
-   
 }
 
 
 
 
-
+// ****** BURGER MENU ******
 .menuOpen{
 
-    @media (max-width: 768px) {
+    @media (max-width: 800px) {
         display: flex;
         //flex-direction: column;
         // color: black; 
@@ -117,15 +109,13 @@
                         color: rgb(134, 160, 184);
                     }
                 }
-            }
-
-           
+            }     
     }
 }
 
 
 // **** MIRAR ****
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .menu {
         display: none; 
     }
@@ -140,6 +130,8 @@
 }
 
 
+
+// ***** DROPDOWN MENU *****
 .dropdown {
     position: relative;
 
@@ -204,7 +196,7 @@
         display: block;
 
 
-        @media (max-width: 768px) {
+        @media (max-width: 1000px) {
             display: none; 
         }
     }

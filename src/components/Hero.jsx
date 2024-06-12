@@ -40,11 +40,6 @@ function Hero() {
     <Link to="header" smooth={true} duration={500}>
       <FontAwesomeIcon icon={faChevronUp} className="scrollArrow" />
     </Link>
-
-
-    {/* <a href="">
-      <FontAwesomeIcon icon={faChevronUp} className="scrollArrow" />
-    </a> */}
     
    </section>
   )
