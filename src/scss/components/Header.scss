@@ -14,7 +14,15 @@
 
     &__mainName{
         color: white;
-        cursor: pointer;
+        //font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-family: "Poppins";
+        letter-spacing: -2px;
+        //word-spacing: 5px;
+        font-size: 33px;
+        //word-spacing: 5px;
+        //font-weight: bold;
+        cursor: pointer; 
     }
 
     &__burgerMenu{
