@@ -17,7 +17,7 @@ function NavMenu({isMobileMenuOpen}) {
           ABOUT ME
 
           <ul className="dropdown__content">
-            <li className="dropdown__content--item ">
+            <li className="dropdown__content--item">
               <Link to="skills" smooth={true} duration={500} >
                 SKILLS
               </Link>

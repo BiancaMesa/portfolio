@@ -1,5 +1,6 @@
 .header{
     background-color: rgb(195, 191, 208);
+    //background-color: rgb(205, 194, 216);
     padding: 10px 2%;
     border: 1px solid black;  
     display: flex;
@@ -31,16 +32,32 @@
         }
 
         &--icon{
-            font-size: 30px;
+            font-size: 40px;
             // color: white;
 
             @media (max-width: 800px) {
-               color: black;
+               //color: black;
+               color: white;
                 // position: absolute; 
                 // z-index: 1;
             }
         }
     }
+}
+
+.headerMenuOpen {
+    justify-content: center;
+
+     &__mainName {
+            z-index: 2;
+            font-size: 100px;
+            //color: black;
+            font-family: "Poppins";
+            letter-spacing: -5px;
+            font-weight: bold;
+            padding-top: 20px;
+            //line-height: 100vh;
+        }
 }
 
 
