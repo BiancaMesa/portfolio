@@ -3,6 +3,7 @@
 
     &__image{
         width: 50%;
+        //height: 200vh; 
         //height: 100%;
         //position: sticky;
     }
@@ -15,8 +16,12 @@
         //justify-content:space-around;
         align-items: center;
         gap: 30px;
-        margin-top: -40px;
-        overflow:auto;
+        //margin-top: -40px;
+        padding-top: 20px;
+        
+        height: 150vh; 
+        overflow: auto;
+        
         
         &--title{
             font-size: 60px;
@@ -38,8 +43,6 @@
             // //background-repeat: repeat;
             // -webkit-background-clip: text;
             // -webkit-text-fill-color: transparent;
-
-
         }
     
         .valueOne{
@@ -59,14 +62,11 @@
                 .valueSparkle{
                     width: 20px;
                 }
-
             }
 
             &__text{
                 font-size: 18px;
-
             }
-    
         }
 
         .valueTwo{
@@ -83,14 +83,11 @@
                 .valueSparkle{
                     width: 20px;
                 }
-
             }
 
             &__text{
                 font-size: 18px;
-
             }
-    
         }
 
         .valueThree{
@@ -141,29 +138,29 @@
     
         }
 
-        // .valueFive{
-        //     width: 50%;
-        //     background-color: rgb(230, 221, 230);
-        //     //margin-bottom: 30px;
-        //     padding: 50px;
-        //     border: 1px solid black;
+        .valueFive{
+            width: 50%;
+            background-color: rgb(230, 221, 230);
+            //margin-bottom: 30px;
+            padding: 50px;
+            border: 1px solid black;
 
-        //     &__title{
-        //         font-size: 25px;
-        //         margin-bottom: 20px;
+            &__title{
+                font-size: 25px;
+                margin-bottom: 20px;
 
-        //         .valueSparkle{
-        //             width: 20px;
-        //         }
+                .valueSparkle{
+                    width: 20px;
+                }
 
-        //     }
+            }
 
-        //     &__text{
-        //         font-size: 18px;
+            &__text{
+                font-size: 18px;
 
-        //     }
+            }
     
-        // }
+        }
     }
 
 

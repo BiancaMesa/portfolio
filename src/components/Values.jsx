@@ -40,12 +40,12 @@ function Values() {
                     <p className="valueFour__text">Towards self & others</p>
                 </div>
 
-                {/* <div className="valueFive">
+                <div className="valueFive">
                     <h3 className="valueFive__title">
                         <img className="valueSparkle" src={sparkle} alt="sparkle" /> GROWTH <img className="valueSparkle" src={sparkle} alt="sparkle" />
                     </h3>
                     <p className="valueFive__text">Towards self & others</p>
-                </div> */}
+                </div>
 
                 {/* <p className="valuesContainer__written--text"></p> */}
 
