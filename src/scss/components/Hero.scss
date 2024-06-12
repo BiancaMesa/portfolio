@@ -37,6 +37,11 @@
                 height: 60vh;
                 margin: 0 -3px;
             }
+
+            @media (max-width: 320px) {
+                height: 70vh;
+                //margin: 0 -3px;
+            }
         }
     }
 
@@ -71,8 +76,13 @@
         }
 
         @media (max-width: 550px) {
-            width: 70%; 
-            top: -52vh;
+            width: 80%; 
+            top: -50vh;
+        }
+
+        @media (max-width: 320px) {
+            width: 85%; 
+            top: -59vh;
         }
         
         &--intro{
@@ -91,6 +101,10 @@
 
             @media (max-width: 550px) {
                 font-size: 1.5rem;
+            }
+
+            @media (max-width: 320px) {
+                font-size: 1.2rem;
             }
         }
 
