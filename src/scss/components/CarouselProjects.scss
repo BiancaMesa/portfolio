@@ -1,8 +1,8 @@
-
 .project {
     //background-color: rgb(183, 173, 173);
     //padding-top: 70px;
     margin-bottom: 70px;
+    height: 115vh; 
 
     &__info{
         color: black;
@@ -13,6 +13,18 @@
         flex-direction: column;
         align-items: center;
         gap: 10px;
+
+        @media (max-width: 500px) {
+            width: 100%; 
+            //right: 0; 
+            left: 0; 
+            top: 60vh; 
+            //justify-content: center;
+            //margin: -250vh 0 0 0; 
+            //background-color: aliceblue;
+            //border: 1px solid black; 
+           // margin-bottom: 50px; 
+        }
 
         &--title{
             font-size: 40px;
@@ -45,6 +57,10 @@
     &__image{
         width: 50%;
         border: 5px solid rgb(152, 194, 194); 
+
+        @media (max-width: 500px) {
+            width: 100%; 
+        }
     }
 }
 
@@ -54,6 +70,10 @@
     width: 16px;
     height: 16px;
     border-radius: 50%;
+
+    // @media (max-width: 500px) {
+    //    margin-bottom: -50px; 
+    // }
 }
 
 
@@ -73,18 +93,18 @@
 
 
   // CarouselProjects.scss
-  .carousel .carousel-item {
+.carousel .carousel-item {
     transition: transform 0.8s cubic-bezier(0.65, 0.05, 0.36, 1), opacity 0.8s ease-in-out;
-  }
+}
   
-  .carousel .carousel-item-next,
-  .carousel .carousel-item-prev,
-  .carousel .carousel-item.active {
+.carousel .carousel-item-next,
+.carousel .carousel-item-prev,
+.carousel .carousel-item.active {
     display: block;
     opacity: 0;
-  }
+}
 
-  .carousel .carousel-item-next.carousel-item-left,
+.carousel .carousel-item-next.carousel-item-left,
 .carousel .carousel-item-prev.carousel-item-right,
 .carousel .carousel-item.active {
   opacity: 1;
