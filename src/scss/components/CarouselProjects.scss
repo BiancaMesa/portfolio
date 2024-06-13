@@ -42,14 +42,20 @@
             flex-direction: column;
             align-items: center;
             text-align: center;
+            justify-content: center;
             gap: 10px;
-            background-color: aqua;
+            //background-color: rgb(202, 245, 243);
+            position: relative;
+            left: 0;
+            
             
     
             @media (max-width: 500px) {
                 width: 100%; 
                 position: relative;
                 margin-top: 20px;
+                left: 0;
+                margin-bottom: 20px;
                // order: 2; 
                 // left: 0; 
                 // top: 50vh;
@@ -58,13 +64,6 @@
                 //position: relative;
             }
     
-            @media (max-width: 320px) {
-                // height: 100vh;
-                // left: 0; 
-                // top: 45vh; 
-                // padding-bottom: 70px; 
-                // background-color: aliceblue;
-            }
 
             .projectTitle{
                 font-size: 40px;
@@ -84,7 +83,7 @@
     
             .projectLinks{
                 display: flex;
-               
+                justify-content: center;
                 gap: 10px;
             
                 &__github, &__website {
