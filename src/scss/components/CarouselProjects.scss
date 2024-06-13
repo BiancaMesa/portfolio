@@ -1,87 +1,215 @@
+// .carousel {
+//     height: 120vh; 
+//     background-color: white;
+//     margin: 0; 
+//     padding: 0;
+// }
+
 .project {
-    //background-color: rgb(183, 173, 173);
-    //padding-top: 70px;
-    margin-bottom: 70px;
-    height: 115vh; 
+    margin-bottom: auto;
+    //height: auto; 
 
-    &__info{
-        color: black;
-        margin-bottom: 30vh;
-        right: 0;
-        left: 50vw;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
+    @media (max-width: 500px) {
+        height: auto; 
+    }
+
+    &__content {
+        display: flex; 
+        flex-direction: row; 
 
         @media (max-width: 500px) {
-            width: 100%; 
-            //right: 0; 
-            left: 0; 
-            top: 60vh; 
-            //justify-content: center;
-            //margin: -250vh 0 0 0; 
-            //background-color: aliceblue;
-            //border: 1px solid black; 
-           // margin-bottom: 50px; 
+            flex-direction: column;
         }
 
-        &--title{
-            font-size: 40px;
-            color: rgb(170, 196, 208);
-            margin-bottom: 20px;
+        &--image{
+            width: 50%;
+            border: 5px solid rgb(152, 194, 194); 
+
+            @media (max-width: 500px) {
+                //position: relative; 
+                width: 100%; 
+                //top: 0; 
+                //order: 1;
+            }
         }
 
-        &--description{
-            //margin-bottom: 20px;
-            font-size: 20px;
-            padding: 0 50px;
+        &--info{
+            color: black;
+            //margin-bottom: 30vh;
+            //right: 0;
+            //left: 50vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 10px;
+            background-color: aqua;
+            
+    
+            @media (max-width: 500px) {
+                width: 100%; 
+                position: relative;
+                margin-top: 20px;
+               // order: 2; 
+                // left: 0; 
+                // top: 50vh;
+                // position: absolute;  
+                // margin: 100px 0; 
+                //position: relative;
+            }
+    
+            @media (max-width: 320px) {
+                // height: 100vh;
+                // left: 0; 
+                // top: 45vh; 
+                // padding-bottom: 70px; 
+                // background-color: aliceblue;
+            }
+
+            .projectTitle{
+                font-size: 40px;
+                color: rgb(170, 196, 208);
+                margin-bottom: 20px;
+            }
+        
+            .projectDescription{
+                //margin-bottom: 20px;
+                font-size: 20px;
+                padding: 0 50px;
+            }
+        
+            .projectTechnologies{
+                color: grey;
+            }
+    
+            .projectLinks{
+                display: flex;
+               
+                gap: 10px;
+            
+                &__github, &__website {
+                    font-size: 25px;
+                    //color: rgb(190, 211, 215);
+                    color: rgb(180, 201, 212);
+                }
+            }
+            
         }
 
-        &--technologies{
-            color: grey;
-        }
-    }
 
-    .projectLinks{
-        display: flex;
-        gap: 10px;
+        // &--info{
+        //     color: black;
+        //     //margin-bottom: 30vh;
+        //     //right: 0;
+        //     //left: 50vw;
+        //     display: flex;
+        //     flex-direction: column;
+        //     align-items: center;
+        //     text-align: center;
+        //     gap: 10px;
+        //     background-color: aqua;
+        //     margin: 0; 
+        //     padding: 0; 
+    
+        //     @media (max-width: 500px) {
+        //         width: 100%; 
+        //         position: relative;
+        //         margin-top: 20px;
+        //         order: 2; 
+        //         // left: 0; 
+        //         // top: 50vh;
+        //         // position: absolute;  
+        //         // margin: 100px 0; 
+        //         //position: relative;
+        //     }
+    
+        //     @media (max-width: 320px) {
+        //         // height: 100vh;
+        //         // left: 0; 
+        //         // top: 45vh; 
+        //         // padding-bottom: 70px; 
+        //         // background-color: aliceblue;
+        //     }
 
-        &__github, &__website {
-            font-size: 25px;
-            //color: rgb(190, 211, 215);
-            color: rgb(180, 201, 212);
-        }
-    }
+        //     .projectCaption {
+        //         margin: 0; 
+        //         padding: 0; 
+                
+        //         &__title{
+        //             font-size: 40px;
+        //             color: rgb(170, 196, 208);
+        //             margin-bottom: 20px;
+        //         }
+        
+        //         &__description{
+        //             //margin-bottom: 20px;
+        //             font-size: 20px;
+        //             padding: 0 50px;
+        //         }
+        
+        //         &__technologies{
+        //             color: grey;
+        //         }
+    
+        //         &__links{
+        //             display: flex;
+        //             gap: 10px;
+            
+        //             &--github, &--website {
+        //                 font-size: 25px;
+        //                 //color: rgb(190, 211, 215);
+        //                 color: rgb(180, 201, 212);
+        //             }
+        //         }
 
-    &__image{
-        width: 50%;
-        border: 5px solid rgb(152, 194, 194); 
+        //     }
+    
+            
+        // }
 
-        @media (max-width: 500px) {
-            width: 100%; 
-        }
-    }
+
+    }    
 }
 
 
 .carousel .carousel-indicators button {
+// .carousel-indicators button {
     background-color: rgb(200, 224, 233);
     width: 16px;
     height: 16px;
     border-radius: 50%;
 
-    // @media (max-width: 500px) {
-    //    margin-bottom: -50px; 
+    @media (max-width: 500px) {
+        position: relative; 
+        top: 10px; 
+        // top: 80px; 
+         //position: absolute;
+         //z-index: 0;
+     }
+
+    // @media (max-width: 320px) {
+    //    // top: 80px; 
+    //     position: absolute;
+    //     //z-index: 0;
     // }
 }
 
+// .chevronIconLeft, .chevronIconRight{
+//     color:rgb(200, 224, 233);
+//     font-size: 40px;
+
+//     @media (max-width: 500px) {
+//         margin-top: -40px; 
+//     }
+// }
+
 
 .chevronIconLeft{
-    //color: rgb(163, 147, 183);
     color:rgb(200, 224, 233);
     font-size: 40px;
     margin-left: -100px;
+    position: absolute;
+    z-index: 3;
 
     @media (max-width: 500px) {
         margin-left: 0px; 
@@ -90,10 +218,11 @@
 }
 
 .chevronIconRight{
-    //color: rgb(163, 147, 183);
     color:rgb(200, 224, 233);
     font-size: 40px;
     margin-right: -100px;
+    position: absolute;
+    z-index: 3;
 
     @media (max-width: 500px) {
         margin-right: 0px; 
@@ -102,7 +231,6 @@
 }
 
 
-  // CarouselProjects.scss
 .carousel .carousel-item {
     transition: transform 0.8s cubic-bezier(0.65, 0.05, 0.36, 1), opacity 0.8s ease-in-out;
 }
