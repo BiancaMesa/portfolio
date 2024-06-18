@@ -17,8 +17,24 @@
             //gap: 20px;
             margin: 0 150px;
 
-            &--title{
-                width: 330px;
+            // &--title{
+            //     width: 330px;
+                
+            // }
+
+            &--title1{
+                font-family: "Covered By Your Grace";
+                //font-family: "Oooh Baby";
+                //font-family: "Just Me Again Down Here";
+                //font-family: "Grape Nuts";
+                //font-family: "Square Peg";
+                // font-family: "Waiting for the Sunrise";
+                // font-weight: bold;
+                // font-style: italic;
+                //font-family: "Reenie Beanie";
+                font-size: 4.4rem;
+                //font-size: 70px;
+                color: rgb(121, 144, 176);
                 
             }
 
@@ -42,6 +58,8 @@
                 //width: 60%;
                 text-align: center;
                 color: rgb(44, 46, 47);
+                font-family: "Poppins";
+                font-size: 2rem;
                 // background-image: url("/src/images//newyork.jpg");
                 // //background-repeat: repeat;
                 // -webkit-background-clip: text;
