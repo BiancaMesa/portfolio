@@ -23,7 +23,7 @@
             // }
 
             &--title1{
-                font-family: "Covered By Your Grace";
+                // font-family: "Covered By Your Grace";
                 //font-family: "Oooh Baby";
                 //font-family: "Just Me Again Down Here";
                 //font-family: "Grape Nuts";
@@ -32,10 +32,17 @@
                 // font-weight: bold;
                 // font-style: italic;
                 //font-family: "Reenie Beanie";
-                font-size: 4.4rem;
+                font-family: "Poppins";
+                letter-spacing: -0.2rem;
+                font-weight: bold;
+                //font-size: 4.4rem;
+                font-size: 4rem;
                 //font-size: 70px;
                 color: rgb(121, 144, 176);
-                
+                //color: rgb(193, 175, 204);
+                color: black;
+                //color: white;
+                margin-bottom: 13px;
             }
 
             // &--title1{
@@ -52,14 +59,17 @@
             //     //margin-left: 150px;
             // }
 
-            &--title2{
+            &--subtitle{
                 font-size: 40px;
                 //margin: 20px 0 0 140px;
                 //width: 60%;
                 text-align: center;
                 color: rgb(44, 46, 47);
+                //color: rgb(70, 76, 79);
+                // color: rgb(180, 160, 193);
                 font-family: "Poppins";
                 font-size: 2rem;
+                // font-weight: bold;
                 // background-image: url("/src/images//newyork.jpg");
                 // //background-repeat: repeat;
                 // -webkit-background-clip: text;
@@ -79,16 +89,38 @@
             &--resumeButton{
                 text-decoration: none;
                 color: white;
-                border: 1px solid rgb(0, 0, 0);
-                background-color: rgb(39, 38, 39);
+                //border: 2px solid white;
+
+                // border: 1px solid rgb(0, 0, 0);
+                //background-color: rgb(39, 38, 39);
+
+                background-color: rgb(246, 241, 246);
+                
+                // color: rgb(143, 119, 147);
+                // border: 1.5px solid rgb(143, 119, 147);
+
+                // color: rgb(179, 152, 183);
+                // border: 1.5px solid rgb(189, 168, 193);
+
+                color: rgb(141, 169, 199);
+                border: 1.5px solid rgb(141, 169, 199);
+
                 border-radius: 30px;
                 padding: 10px 20px;
                 cursor: pointer;
 
                 &:hover{
                     // background-color: transparent;
-                    background-color: rgb(246, 241, 246);
-                    color: black;
+                    // background-color: rgb(246, 241, 246);
+                    // color: black;
+
+                    border: 1px solid rgb(54, 51, 54);
+                    background-color: rgb(54, 51, 54);
+                    color: white;
+
+                    border: 1px solid rgb(97, 123, 151);
+                    background-color:rgb(84, 110, 136);
+                    color: white;
                 }
             }
 

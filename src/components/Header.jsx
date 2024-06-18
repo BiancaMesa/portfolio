@@ -15,7 +15,7 @@ function Header() {
 
   return (
     <header className={`header ${isMobileMenuOpen ? "headerMenuOpen" : ""}`} id="header">
-        <h1 className={`header__mainName ${isMobileMenuOpen ? "headerMenuOpen__mainName" : ""}`}>BIANCA MESA</h1>
+        <h1 className={`header__mainName ${isMobileMenuOpen ? "headerMenuOpen__mainName" : ""}`}>Bianca Mesa</h1>
         <div className="header__burgerMenu">
           <FontAwesomeIcon icon={isMobileMenuOpen ? faXmark : faBars} className="header__burgerMenu--icon" onClick={toggleMobileMenu}/>
         </div>

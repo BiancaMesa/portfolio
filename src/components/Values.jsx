@@ -6,8 +6,10 @@ function Values() {
   return (
     <section className="valuesSection" id="values">
         {/* <h1 className="valuesSection__title">Values</h1> */}
+        {/* <h1 className="valuesSection__wrapper--title">VALUES</h1> */}
 
             <img className="valuesSection__image" src={underwater} alt="underwater_img" />
+           
 
             <div className="valuesSection__wrapper">
                 <h1 className="valuesSection__wrapper--title">VALUES</h1>

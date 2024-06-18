@@ -2,6 +2,7 @@
 import "../scss/components/Hero.scss";
 import hero1 from "../images/ocean1.jpg";
 import hero2 from "../images/ocean2.jpg";
+import heart from "../images/favicon_heart3.png";
 import {Link} from "react-scroll";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons'; 
@@ -17,8 +18,10 @@ function Hero() {
     </div>
 
     <div className="hero__infoCard">
-        <p className="hero__infoCard--title">HI, THIS IS <span className="heroAuthorName">Bianca</span></p>
-        <h1 className="hero__infoCard--statement">A PASSIONATE FRONT-END DEVELOPER WITH A BIG THING FOR DESIGN</h1>
+        <p className="hero__infoCard--title">Hi, this is <span className="heroAuthorName">Bianca</span> <img className="heroHeart" src={heart} alt="heart" ></img></p>
+        <h1 className="hero__infoCard--statement">A PASSIONATE FRONT-END DEVELOPER WITH A BIG THING FOR DESIGN  </h1>
+        {/* <h1 className="hero__infoCard--statement">A PASSIONATE FRONT-END DEVELOPER WITH A BIG THING FOR DESIGN  <img className="statementHeart" src={heart} alt="heart" ></img></h1> */}
+       
         
        {/* <div className="hero__infoCard--subContainer">
           <div className="heroInfo">

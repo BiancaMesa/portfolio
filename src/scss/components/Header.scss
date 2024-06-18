@@ -1,6 +1,10 @@
 .header{
     background-color: rgb(195, 191, 208);
-    //background-color: rgb(205, 194, 216);
+    background-color: rgb(205, 194, 216);
+    background-color: rgb(222, 211, 229);
+    background-color: rgb(215, 201, 224);
+    background-color: rgb(210, 193, 220);
+    background-color: rgb(207, 191, 216);
     padding: 10px 2%;
     border: 1px solid black;  
     display: flex;
@@ -17,9 +21,16 @@
         //font-family: "Montserrat", sans-serif;
         font-weight: 600;
         font-family: "Poppins";
-        letter-spacing: -2px;
+        //font-family: "Waiting for the Sunrise";
+        //font-family: "Covered by your Grace";
+        //font-family: "Montserrat";
+        font-weight: bold;
+        //letter-spacing: 0.1rem;
+        //letter-spacing: -2px;
+        letter-spacing: -0.15rem;
         //word-spacing: 5px;
-        font-size: 33px;
+        //font-size: 33px;
+        font-size: 2.08rem;
         //word-spacing: 5px;
         //font-weight: bold;
         cursor: pointer; 
