@@ -92,11 +92,24 @@
             //top: -59vh;
         }
         
-        &--intro{
+        &--title{
             margin-bottom: 20px;
             font-size: 22px;
             color: rgb(86, 92, 88);
             font-weight: bold;
+
+            .heroAuthorName{
+                //font-family: "Poppins";
+                font-family: "Covered By Your Grace";
+                //font-family: "Waiting for the Sunrise";
+                //font-style: italic;
+                //font-weight: bold;
+                font-size: 2.8rem;
+                color: rgb(86, 95, 97);
+                color: rgb(222, 211, 229);
+                letter-spacing: 0.1rem;
+                margin: 0 4px;
+            }
 
         }
 

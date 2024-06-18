@@ -17,7 +17,7 @@ function Hero() {
     </div>
 
     <div className="hero__infoCard">
-        <p className="hero__infoCard--intro">HI, THIS IS BIANCA</p>
+        <p className="hero__infoCard--title">HI, THIS IS <span className="heroAuthorName">Bianca</span></p>
         <h1 className="hero__infoCard--statement">A PASSIONATE FRONT-END DEVELOPER WITH A BIG THING FOR DESIGN</h1>
         
        {/* <div className="hero__infoCard--subContainer">
