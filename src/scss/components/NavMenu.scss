@@ -153,11 +153,12 @@
 
 // ***** DROPDOWN MENU *****
 .dropdown {
-    position: relative;
+    position: relative;;
 
     &__content {
         display: none;
         position: absolute;
+        //top: 30px;
         background-color: white;
         //background-color: rgb(158, 196, 202);
         //background-color: rgb(182, 210, 225);
@@ -167,9 +168,10 @@
 
         left: 50%;
         transform: translateX(-50%);
-        //width: 100%;
+        width: 11vw;
         //height: 7.5rem;
-        padding: 5px 17px 7px 17px;
+        //padding: 5px 17px 7px 17px;
+        padding: 16px 0 20px 0;
 
         border-bottom-left-radius: 10px; 
         border-bottom-right-radius: 10px; 
@@ -191,6 +193,7 @@
             //color: rgb(90, 86, 92);
             //color: white;
             color: rgb(174, 201, 227);
+            //color: rgb(208, 194, 208);
             //color: rgb(186, 169, 208);
 
             display: flex;
@@ -207,6 +210,7 @@
                 color: rgb(134, 160, 184);
                 //color: rgb(186, 170, 199);
                 //color: rgb(103, 97, 106);
+                //color: rgb(208, 194, 208);
             }
 
         }
