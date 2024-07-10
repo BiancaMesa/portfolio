@@ -21,13 +21,13 @@ function NavMenu({isMobileMenuOpen}) {
           <ul className="dropdown__content" >
             <li className="dropdown__content--item">
               <Link to="skills" smooth={true} duration={500} >
-                SKILLS
+                TECHS & SKILLS
               </Link>
             </li>
 
             <li className="dropdown__content--item ">
               <Link to="unique" smooth={true} duration={500} >
-                UNIQUE
+                MY EDGE
               </Link>
             </li>
 

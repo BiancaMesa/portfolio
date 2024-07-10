@@ -5,8 +5,12 @@
 
     &__title {
         text-align: center;
-        font-size: 40px;
-        margin-bottom: 30px;
+        margin: -100px 0 100px 0;
+
+        font-family: "Poppins";
+        letter-spacing: -0.2rem;
+        font-weight: bold;
+        font-size: 4rem;
     }
 
     .resume{
