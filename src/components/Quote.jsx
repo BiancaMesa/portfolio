@@ -2,8 +2,10 @@ import "../scss/components/Quote.scss";
 import quoteVideo from "../video/video1.mp4";
 import tech from "../images/tech1.jpg";
 import english from "../images/english1.jpg";
-import coaching from "../images/coaching1.jpg";
-import yoga from "../images/yoga6.jpg";
+//import coaching from "../images/coaching1.jpg";
+import coaching from "../images/coaching4.png";
+//import yoga from "../images/yoga6.jpg";
+import yoga from "../images/yoga10.png";
 
 function Quote() {
   return (
@@ -22,13 +24,13 @@ function Quote() {
             <div className="uniqueness">
               <img className="uniqueness__image" src={tech} alt="tech" />
               <h2 className="uniqueness__title">Tech</h2>
-              <p className="uniqueness__description">I am in love with technology, coding and design and that makes me pour my heart ... gives me drive to pour my heart into the projects I undertake./ that fuels me and makes me so committed.</p>
+              <p className="uniqueness__description">I am in love with technology, coding and design and that makes me pour my heart and love into the projects I undertake.</p>
             </div>
 
             <div className="uniqueness">
               <img className="uniqueness__image" src={english} alt="english" />
-              <h2 className="uniqueness__title">English</h2>
-              <p className="uniqueness__description">I speak English so fluently </p>
+              <h2 className="uniqueness__title englishTitle">English</h2>
+              <p className="uniqueness__description englishDescription">I am in love with English ever since I can remember. That's why I enjoy surrounding myself with / immersing myself in English and enjoy so much surrounding myself doing as many things as I can in English. Because of that love I have cultivated a fluent. </p>
             </div>
 
             <div className="uniqueness">
@@ -39,8 +41,8 @@ function Quote() {
 
             <div  className="uniqueness">
               <img className="uniqueness__image" src={yoga} alt="yoga" />
-              <h2 className="uniqueness__title">Yoga</h2>
-              <p className="uniqueness__description">Cat purring lap thread dangling curl play hide and seek magic protection good energy kitten crystals sleep angels good heart furry babies witches cute</p>
+              <h2 className="uniqueness__title yogaTitle">Yoga</h2>
+              <p className="uniqueness__description yogaDescription">Pacience, consistency, work ethic, commitment. Progress is achieved step by step and that way you get far. Progress and excelence is an accumulation of small steps in the right direction.</p>
             </div>
          </div>
 

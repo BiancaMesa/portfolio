@@ -28,7 +28,7 @@ function Passions() {
 
             <div className="passionFour">
                 <img className="passionFour__image" src={podcast} alt="yoga" />
-                <h3 className="passionFour__title">Podcasts</h3>
+                <h3 className="passionFour__title">Personal Growth</h3>
             </div>
 
 

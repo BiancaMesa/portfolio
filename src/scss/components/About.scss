@@ -128,24 +128,16 @@
     
         &__image{
             width: 400px;
-            border-radius: 190px;
+            height: 550px;
+            //border-radius: 190px;
+            border-radius: 12rem; ///leave in rem ?????
             box-shadow: 1px 1px 10px 1px rgb(190, 174, 163);
             border: 2px solid black;
             margin-right: 100px;
+            align-self: center;
+
         }
     }
 
-    // &__section2 {
-    //     margin-top: 100px;
-    //     //padding-left: 30px;
-
-    //     &--image{
-    //         width: 400px;
-    //         border-radius: 190px;
-    //         box-shadow: 1px 1px 10px 1px rgb(190, 174, 163);
-    //         border:2px solid black;
-    //     }
-
-    // }
 
    
