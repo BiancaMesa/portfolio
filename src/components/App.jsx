@@ -6,7 +6,7 @@ import AnimatedMarquee from './AnimatedMarquee';
 import Projects from './Projects';
 import About from './About';
 import Footer from './Footer';
-import Resume from './Resume';
+import Techs from './Techs';
 import Quote from './Quote';
 import Values from './Values';
 import Contact from './Contact';
@@ -24,7 +24,7 @@ function App() {
           <AnimatedMarquee/>
           <Projects/>
           <About/>
-          <Resume/>
+          <Techs/>
           <Quote/>
           <Values/>
           <Passions/>

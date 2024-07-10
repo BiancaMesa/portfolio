@@ -98,10 +98,12 @@
                 gap: 20px;
                 display: flex;
                 flex-wrap: wrap;
+                padding: 12px 0 12px 0; 
 
                 .techIconImage{
                     //width: 60px;
-                    width: 80px;
+                    //width: 80px;
+                    width: 100px;
 
                     // &:hover {
                     //     box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
@@ -159,6 +161,7 @@
                   rgba(167, 115, 187, 0.7) 4%,
                   rgba(177, 155, 191, 0.3)
                 );
+                
                 -webkit-box-decoration-break: clone;
                 box-decoration-break: clone;
                 width: 50%;
@@ -178,6 +181,7 @@
                     // background: -webkit-linear-gradient(rgb(223, 191, 241) 0%, rgb(154, 183, 202) 50%, rgb(168, 214, 243) 100%);
                     background: -webkit-linear-gradient(rgb(223, 191, 241) 0%, rgb(160, 203, 231) 50%, rgb(168, 214, 243) 100%);
                     background: -webkit-linear-gradient(rgb(201, 181, 207), rgb(113, 136, 167));
+                    background: -webkit-linear-gradient(rgb(201, 181, 207), rgb(153, 197, 217));
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
                     font-weight: bold;

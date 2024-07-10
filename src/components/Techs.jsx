@@ -1,4 +1,4 @@
-import "../scss/components/Resume.scss";
+import "../scss/components/Techs.scss";
 import javaScriptIcon from "../images/js1.png";
 import reactIcon from "../images/react1.png";
 import htmlIcon from "../images/html1.png";
@@ -9,7 +9,7 @@ import nodejsIcon from "../images/nodejs1.png";
 import mySQLIcon from "../images/mysql.png";
 import bootstrap from "../images/bootstrap.png";
 
-function Resume() {
+function Techs() {
   return (
     <section className="resumeContainer" id="skills">
         <h1 className="resumeContainer__title">Techs & Skills</h1>
@@ -43,17 +43,18 @@ function Resume() {
                     <ul className="skills__listOne">
                         <li>Resourceful</li>
                         <li>Committed</li>
-                        <li>Flexibility</li>
-                        <li>Adaptability</li>
-                        <li>Organization</li>
+                        <li>Flexible</li>
+                        <li>Adaptable</li>
+                        <li>Organized</li>
                         <li>Detail-oriented</li>
                     </ul>
                     <ul className="skills__listTwo">
-                        <li>Creativity</li>
-                        <li>Collaboration</li>
-                        <li>Team spirit</li>
-                        <li>Determination</li>
+                        <li>Collaborative</li>
+                        <li>Creative</li>
+                        <li>Problem-solving</li>
+                        <li>Determined</li>
                         <li>Driven</li>
+                        <li>Proactive</li>
                     </ul>
                 </div>
             </section>
@@ -74,4 +75,4 @@ function Resume() {
   )
 }
 
-export default Resume
+export default Techs;
