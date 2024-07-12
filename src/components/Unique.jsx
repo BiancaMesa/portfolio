@@ -1,11 +1,11 @@
 import "../scss/components/Unique.scss";
 import quoteVideo from "../video/video1.mp4";
 import tech from "../images/tech1.jpg";
-import english from "../images/english7.png";
+import english from "../images/english14.jpg";
 //import coaching from "../images/coaching1.jpg";
 import coaching from "../images/coaching7.png";
 //import yoga from "../images/yoga6.jpg";
-import yoga from "../images/yoga14.png";
+import yoga from "../images/yoga18.png";
 
 function Unique() {
   return (
