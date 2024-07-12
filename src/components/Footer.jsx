@@ -7,9 +7,9 @@ function Footer() {
 
         <section className="footer__socials"> 
 
-          {/* <a className="footer__socials--anchor" href="mailto:bbiancamesa@gmail.com">
+          <a className="footer__socials--anchor" href="mailto:bbiancamesa@gmail.com">
             <i className="fa-solid fa-envelope socialsIcon"></i>
-          </a> */}
+          </a>
           
           <a className="footer__socials--anchor"  href="https://www.linkedin.com/in/bianca-mesa/" target="_blank">
             <i className="fa-brands fa-linkedin-in socialsIcon"></i>

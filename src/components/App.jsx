@@ -7,7 +7,7 @@ import Projects from './Projects';
 import About from './About';
 import Footer from './Footer';
 import Techs from './Techs';
-import Quote from './Quote';
+import Unique from './Unique';
 import Values from './Values';
 import Contact from './Contact';
 import Passions from './Passions';
@@ -25,7 +25,7 @@ function App() {
           <Projects/>
           <About/>
           <Techs/>
-          <Quote/>
+          <Unique/>
           <Values/>
           <Passions/>
           <Contact/>

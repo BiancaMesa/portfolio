@@ -1,13 +1,15 @@
-.quoteSection {
+.uniqueSection {
     color: white;
     position: relative; 
     z-index: 0;
     margin-bottom: 250px;
+    
     // margin: 0 50px 250px 50px;
     // display: flex;
     // flex-direction: column;
     // justify-content: center;
-    padding: 0 50px;
+
+    //padding: 0 50px;
 
 
     &__video{
@@ -15,7 +17,9 @@
         position: absolute;
         z-index: -1;
         padding-bottom: 50px;
+        height: 280vh; 
         left: 0;
+
     }
 
     &__title{
@@ -50,15 +54,49 @@
 
 
     &__uniquenesses {
-        display: flex;
-        //flex-direction: column;
-        justify-content: center;
-        gap: 30px;
+        // display: flex;
+        // //flex-direction: column;
+        // justify-content: center;
+        // gap: 30px;
+
+       padding: 0 100px; 
+
+        display: grid;
+        grid-template: repeat(4, 1fr) / 1fr; 
+
+        .uniquenessOne {
+            grid-row-start: 1;
+        }
+
+        .uniquenessTwo {
+            grid-row-start: 2;
+
+            .imageTwo {
+                order: 1; 
+            }
+        }
+
+        .uniquenessThree {
+            grid-row-start: 3;
+        }
+
+        .uniquenessFour {
+            grid-row-start: 4;
+
+            .imageFour {
+                order: 1; 
+            }
+        }
+
 
 
         .uniqueness {
             font-size: 50px;
-            text-align: center;
+            //text-align: center;
+            display: flex; 
+            justify-content: center;
+            gap: 100px; 
+            margin-bottom: 80px;
 
             &__image{
                 width: 250px;
@@ -66,21 +104,35 @@
                 border-radius: 50%;
                 // background: linear-gradient(rgb(201, 181, 207) 30%, rgb(237, 241, 245) 100%);
                 // padding: 15px;
-                margin-bottom: 15px;
+                //margin-bottom: 15px;
             }
 
-            &__title {
-                font-size: 50px;
+          
+            &__wrapper {
+                width: 50%;
+               //margin-right: -300px;
+               //text-align: center;
+    
+
+                &--title {
+                    font-size: 3.5rem;
+                }
+
+                &--description {
+                    font-size: 1.5rem;
+                    background-color: rgb(229, 234, 234);
+                    //width: 60%;
+                    padding: 30px; 
+                    border: 1px solid  rgb(149, 174, 191); 
+                    text-align: center;
+                }
             }
 
-            &__description {
-                font-size: 25px;
-            }
 
-            .englishTitle, .englishDescription, .yogaTitle, .yogaDescription{
-                //color: rgb(195, 192, 192);
-                color: rgb(203, 194, 207);
-            }
+            // .englishTitle, .englishDescription, .yogaTitle, .yogaDescription{
+            //     //color: rgb(195, 192, 192);
+            //     color: rgb(203, 194, 207);
+            // }
         }
     }
 
