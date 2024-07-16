@@ -1,4 +1,3 @@
-// import {NavLink} from "react-router-dom";
 import "../scss/components/About.scss";
 import bianca from "../images/bianca7.jpeg";
 

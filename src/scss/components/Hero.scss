@@ -9,11 +9,8 @@
 
         &--image{
             width: 500px;
-            //height: 650px;
             height: 100vh; 
-            //margin-right: 60px;
             margin: 0 30px;
-            //margin: 0 2vw;
 
             @media (max-width: 1150px) {
                 width: 450px;
@@ -41,7 +38,6 @@
 
             @media (max-width: 320px) {
                 height: 100vh;
-                //margin: 0 -3px;
             }
         }
     }
@@ -68,7 +64,6 @@
 
         @media (max-width: 800px) {
             width: 60%; 
-            //top: -65vh;
             top: -70vh;
         }
 
@@ -79,46 +74,32 @@
 
         @media (max-width: 550px) {
             width: 80%; 
-            //top: -50vh;
         }
 
         @media (max-width: 420px) {
             width: 85%; 
-            //top: -53vh;
         }
 
         @media (max-width: 320px) {
             width: 85%; 
-            //top: -59vh;
         }
         
         &--title{
             margin-bottom: 15px;
-            //font-size: 22px;
-            //font-size: 1.5rem;
             font-size: 1.4rem;
             color: rgb(86, 92, 88);
             color: rgb(107, 107, 155);
             color: rgb(222, 211, 229);
             color: rgb(45, 44, 44);
-            //color: rgb(232, 211, 235);
-            //font-weight: bold;
             font-family: "Poppins";
-            //font-style: italic;
             letter-spacing: -0.07rem;
 
 
-
             .heroAuthorName{
-                //font-family: "Poppins";
                 font-family: "Covered By Your Grace";
-                //font-family: "Waiting for the Sunrise";
-                //font-style: italic;
-                //font-weight: bold;
                 font-size: 2.8rem;
                 color: rgb(86, 95, 97);
                 color: rgb(222, 211, 229);
-                //color: black;
                 letter-spacing: 0.1rem;
                 font-weight: 100;
                 margin: 0 4px;
@@ -131,13 +112,10 @@
         }
 
         &--statement{
-            //font-size: 30px;
             font-size: 1.7rem;
             margin: 0 20px 20px 20px;
             color: white;
             font-family: "Poppins";
-            // font-family: "Montserrat";
-            // letter-spacing: -0.05rem;
             letter-spacing: -0.02rem;
 
             @media (max-width: 550px) {
@@ -151,11 +129,6 @@
             @media (max-width: 364px) {
                 font-size: 1.2rem;
             }
-
-
-            // .statementHeart {
-            //    width: 30px;
-            // }
         }
 
         &--button{
@@ -177,7 +150,6 @@
 .scrollArrow {
     position: fixed;
     z-index: 1;
-    //color: rgb(91, 87, 87);
     color: rgb(147, 146, 147);
     font-size: 30px;
     background-color: white;
@@ -191,7 +163,6 @@
 
     &:hover{
         opacity: 1;
-        //color: rgb(107, 128, 176);
         color: rgb(216, 200, 216);
         border: 1px solid rgb(192, 190, 192);
     }

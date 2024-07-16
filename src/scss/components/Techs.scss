@@ -1,5 +1,4 @@
 .resumeContainer{
-    //padding: 70px 30px;
     padding: 200px 30px;
 
 
@@ -17,38 +16,23 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
-        //justify-content: center;
         align-items: center;
         gap: 40px;
         
 
         &__techs{
-            //background-color: rgb(207, 230, 236);
             background-color: rgb(228, 244, 248);
-            //border: 2px solid rgb(44, 42, 44);
-            // border: 10px solid rgb(226, 202, 226);
-            // border: 10px solid rgb(202, 208, 226);
             border: 10px solid rgb(172, 187, 229);
-            //width: 50vw;
-            //padding: 20px 10px 30px 10px; 
             padding: 60px 10px 40px 10px;
             display: flex;
             flex-direction: column;
             position: relative; 
-     
-
     
             &--title{
-                //border: 1px solid white;
-                //background-color: white; 
-                //color: rgb(169, 141, 176);
-                //color: white;
                 border-radius: 30px;
                 padding: 10px 0px;
                 margin-bottom: 20px;
-               // width: 50%;
                 text-align: center;
-                //justify-self: center;
                 font-family: "Square Peg";
                 font-size: 50px;
                 font-weight: bold;
@@ -56,7 +40,6 @@
                 position: absolute;
                 top: -2.5rem; 
                 
-                //margin: 0 -0.4em;
                 padding: 0.1em 0.4em;
                 border-radius: 0.8em 0.3em;
                 background: transparent;
@@ -66,24 +49,6 @@
                     rgba(140, 210, 229, 0.7) 4%,
                     rgba(143, 202, 205, 0.4)
                 );
-                // background-image: linear-gradient(
-                //     to right,
-                //     rgba(121, 179, 223, 0.1),
-                //     rgba(140, 210, 229, 0.7) 4%,
-                //     rgba(132, 195, 200, 0.3)
-                // );
-                // background-image: linear-gradient(
-                //     to right,
-                //     rgba(121, 179, 223, 0.1),
-                //     rgba(140, 210, 229, 0.7) 4%,
-                //     rgba(150, 228, 233, 0.3)
-                // );
-                // background-image: linear-gradient(
-                //     to right,
-                //     rgba(255, 225, 0, 0.1),
-                //     rgba(255, 225, 0, 0.7) 4%,
-                //     rgba(255, 225, 0, 0.3)
-                // );
                 -webkit-box-decoration-break: clone;
                 box-decoration-break: clone;
                 width: 50%;
@@ -93,42 +58,20 @@
             &--techs{
                 display: flex;
                 justify-content: center;
-                // align-content: center;
-                // text-align: center;
                 gap: 20px;
                 display: flex;
                 flex-wrap: wrap;
                 padding: 12px 0 12px 0; 
 
                 .techIconImage{
-                    //width: 60px;
-                    //width: 80px;
                     width: 100px;
-
-                    // &:hover {
-                    //     box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
-                    //     transform: translate3d(0, 2px, 0);
-                    // }
-
-                    // &:focus {
-                    //     box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
-                    // }
-
-                }
-                
-    
+                }    
             }
         }
 
         &__skills{
             background-color: rgb(228, 244, 248);
-            //border: 2px solid rgb(44, 42, 44);
-            // border: 10px solid rgb(226, 202, 226);
-            // border: 10px solid rgb(202, 208, 226);
             border: 10px solid rgb(172, 187, 229);
-           // width: 50vw;
-            //padding: 10px; 
-            //padding: 40px 10px;
             padding: 50px 10px 25px 10px;
             display: flex;
             flex-direction: column;
@@ -145,16 +88,10 @@
                 position: absolute;
                 top: -2.5rem; 
 
-                //margin: 0 -0.4em;
                 padding: 0.1em 0.4em;
                 border-radius: 0.8em 0.3em;
                 background: transparent;
-                // background-image: linear-gradient(
-                //   to right,
-                //   rgba(255, 225, 0, 0.1),
-                //   rgba(255, 225, 0, 0.7) 4%,
-                //   rgba(255, 225, 0, 0.3)
-                // );
+    
                 background-image: linear-gradient(
                   to right,
                   rgba(180, 148, 180, 0.1),
@@ -175,10 +112,6 @@
              
                 &__listOne, &__listTwo {
                     list-style: none;
-                    //color: rgb(255, 255, 255);
-                    //color: rgb(255, 255, 255) 0%, pink 50%, red 100%;
-                    //background: -webkit-linear-gradient(rgb(241, 200, 241), rgb(180, 215, 237));
-                    // background: -webkit-linear-gradient(rgb(223, 191, 241) 0%, rgb(154, 183, 202) 50%, rgb(168, 214, 243) 100%);
                     background: -webkit-linear-gradient(rgb(223, 191, 241) 0%, rgb(160, 203, 231) 50%, rgb(168, 214, 243) 100%);
                     background: -webkit-linear-gradient(rgb(201, 181, 207), rgb(113, 136, 167));
                     background: -webkit-linear-gradient(rgb(201, 181, 207), rgb(153, 197, 217));
@@ -186,40 +119,6 @@
                     -webkit-text-fill-color: transparent;
                     font-weight: bold;
                     font-size: 28px;
-                    //text-shadow: 0px 0px 9px rgb(179, 197, 198);
-
-                    // background-image: url("/src/images/newyork.jpg");
-                    // //background-repeat: repeat;
-                    // -webkit-background-clip: text;
-                    // -webkit-text-fill-color: transparent;
-
-                    // li:hover{
-                    //     //color: black; 
-                    //     //cursor: pointer; 
-                    //     // -webkit-text-fill-color:rgb(188, 135, 188);
-                    //     // -webkit-text-fill-color:rgb(213, 184, 213) ;
-                    //     // -webkit-text-fill-color:rgb(81, 136, 185);
-                    //     // -webkit-text-fill-color:rgb(135, 175, 215) ;
-                    //     //-webkit-text-fill-color:rgb(70, 73, 77) ;
-                    //     //text-decoration: underline;
-                        
-                    //     // border: 1px solid black; 
-                    //     // padding: 0.3em 1em; 
-                    //     // border-radius: 50%;
-
-                    //     // padding: 0.1em 0.4em;
-                    //     // border-radius: 0.8em 0.3em;
-                    //     // background: transparent;
-                    //     // background-image: linear-gradient(
-                    //     // to right,
-                    //     // rgba(255, 225, 0, 0.1),
-                    //     // rgba(255, 225, 0, 0.7) 4%,
-                    //     // rgba(255, 225, 0, 0.3)
-                    //     // );
-                    //     // -webkit-box-decoration-break: clone;
-                    //     // box-decoration-break: clone;
-                            
-                    // }
                 }
 
             }

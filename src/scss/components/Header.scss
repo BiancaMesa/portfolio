@@ -18,21 +18,7 @@
 
     &__mainName{
         color: white;
-        //font-family: "Montserrat", sans-serif;
-        //font-weight: 600;
-        //font-family: "Poppins";
-        //font-family: "Waiting for the Sunrise";
-        //font-family: "Covered by your Grace";
-        //font-family: "Montserrat";
-        //font-weight: bold;
-        //letter-spacing: 0.1rem;
-        //letter-spacing: -2px;
-        //letter-spacing: -0.15rem;
-        //word-spacing: 5px;
-        //font-size: 33px;
         font-size: 2.08rem;
-        //word-spacing: 5px;
-        //font-weight: bold;
         cursor: pointer; 
     }
 
@@ -52,13 +38,9 @@
 
         &--icon{
             font-size: 40px;
-            // color: white;
 
             @media (max-width: 800px) {
-               //color: black;
                color: white;
-                // position: absolute; 
-                // z-index: 1;
             }
         }
     }
@@ -69,48 +51,15 @@
 
      &__mainName {
             z-index: 2;
-            //font-size: 100px;
-            //font-size: 6.25rem;
             font-size: 13vw;
             color: black;
             font-family: "Poppins";
             letter-spacing: -5px;
             font-weight: bold;
             padding-top: 20px;
-            //line-height: 100vh;
-
-            //background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
-            //background: -webkit-linear-gradient(rgb(223, 191, 241) 0%, rgb(154, 183, 202) 50%, rgb(168, 214, 243) 100%);
-            //background: -webkit-linear-gradient(rgb(194, 178, 203) 0%, rgb(208, 191, 217) 30%, rgb(139, 147, 186) 60%, rgb(139, 147, 186) 100%);
-            //background: -webkit-linear-gradient(rgb(194, 178, 203) 0%, rgb(208, 191, 217) 30%, rgb(139, 147, 186) 100%);
-            // background: -webkit-linear-gradient(rgb(194, 178, 203) 0%, rgb(208, 191, 217) 30%, rgb(177, 182, 206) 60%, rgb(139, 147, 186) 100%);
-            // background: -webkit-linear-gradient(0.5turn, rgb(144, 188, 210) 0%, rgb(196, 179, 196) 30%, rgb(192, 170, 205) 60%, rgb(139, 147, 186) 100%);
-            // background: -webkit-linear-gradient(0.5turn, rgb(144, 188, 210) 0%, rgb(168, 183, 206) 30%, rgb(200, 181, 214) 50%, rgb(192, 170, 205) 60%, rgb(139, 147, 186) 100%);
             background: -webkit-linear-gradient(0.5turn, rgb(144, 188, 210) 0%, rgb(184, 198, 220) 20%, rgb(168, 186, 213) 30%, rgb(200, 181, 214) 50%, rgb(192, 170, 205) 60%, rgb(139, 147, 186) 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-
-            //background-image: url("/src/images/pexels-ben-mack-6775393.jpg");
-            //background-image: url("/src/images/newyork.jpg");
-            //background-repeat: repeat;
-            // -webkit-background-clip: text;
-            // -webkit-text-fill-color: transparent;
-
-            // @media (max-width: 700px) {
-            //     font-size: 5rem; 
-            // }
-
-            // @media (max-width: 600px) {
-            //     font-size: 4rem; 
-            //     margin-right: 20px;
-            // }
-
         }
 }
 
-
-// @media (max-width: 768px) {
-//     .header .burgerMenu {
-//         display: block; 
-//     }
-// }

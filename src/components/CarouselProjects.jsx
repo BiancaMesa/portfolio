@@ -2,8 +2,6 @@ import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../scss/components/CarouselProjects.scss";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
-//import { faGithub } from '@fortawesome/free-brands-svg-icons';
-//import { faGithub } from '@awesome.me/kit-KIT_CODE/icons/classic/brands';
 
 import rickAndMorty from "../images/rick5.png";
 import catCharity from "../images/cat_charity2.png";
@@ -116,65 +114,16 @@ function CarouselProjects () {
                 <div className="projectLinks">
                   <a className="projectLinks__github"  href={projectSlide.github} target="_blank">
                     <i className="fa-brands fa-github"></i>
-                    {/* <FontAwesomeIcon icon={faGithub} /> */}
                   </a>
 
                   <a className="projectLinks__website"  href={projectSlide.website} target="_blank">
                     <i className="fa-solid fa-globe"></i>
-                    {/* <FontAwesomeIcon icon={faGlobe}/> */}
                   </a>
                   </div>
               </div>
             </Carousel.Caption>
           </div>
         </Carousel.Item>
-
-      // <Carousel.Item className="project"  key={index}>
-      // <div className="project__content">
-      //   <img src={projectSlide.image} className="project__content--image" alt={projectSlide.alt} />
-
-      //   <Carousel.Caption className="project__content--info">
-      //     <div className="projectCaption">
-      //       <h3 className="projectCaption__title">{projectSlide.title}</h3>
-      //       <p className="projectCaption__description">{projectSlide.description}</p>
-      //       <span className="projectCaption__technologies">{projectSlide.technologies}</span>
-      //       <div className="projectCaption__links">
-      //         <a className="projectCaption__links--github"  href={projectSlide.github} target="_blank">
-      //           <i className="fa-brands fa-github"></i>
-      //           {/* <FontAwesomeIcon icon={faGithub} /> */}
-      //         </a>
-
-      //         <a className="projectCaption__links--website"  href={projectSlide.website} target="_blank">
-      //           <i className="fa-solid fa-globe"></i>
-      //           {/* <FontAwesomeIcon icon={faGlobe}/> */}
-      //         </a>
-      //         </div>
-      //     </div>
-      //   </Carousel.Caption>
-      // </div>
-      // </Carousel.Item>
-
-
-        // <Carousel.Item className="project"  key={index}>
-        //     <Carousel.Caption className="project__info">
-        //       <h3 className="project__info--title">{projectSlide.title}</h3>
-        //       <p className="project__info--description">{projectSlide.description}</p>
-        //       <span className="project__info--technologies">{projectSlide.technologies}</span>
-        //       <div className='projectLinks'>
-        //         <a className="projectLinks__github"  href={projectSlide.github} target="_blank">
-        //           {/* <i className="fa-brands fa-github"></i> */}
-        //           {/* <FontAwesomeIcon icon={faGithub} /> */}
-        //         </a>
-
-        //         <a className="projectLinks__website"  href={projectSlide.website} target="_blank">
-        //           <i className="fa-solid fa-globe"></i>
-        //           {/* <FontAwesomeIcon icon={faGlobe}/> */}
-        //         </a>
-        //         </div>
-        //     </Carousel.Caption>
-
-        //      <img src={projectSlide.image}   className="project__image" alt={projectSlide.alt} />
-        // </Carousel.Item>
       ))}
     </Carousel>
   );
