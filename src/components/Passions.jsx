@@ -12,8 +12,8 @@ function Passions() {
 
         <div className="passionsSection__wrapper">
             <div className="passionOne">
-                <img className="passionOne__image" src={music} alt="newyork" />
-                <h3 className="passionOne__title">Music</h3>
+                <img className="passionOne__image" src={music} alt="music" />
+                <h3 className="passionOne__title">Music & Songwriting</h3>
             </div>
 
             <div className="passionTwo">
@@ -27,7 +27,7 @@ function Passions() {
             </div>
 
             <div className="passionFour">
-                <img className="passionFour__image" src={podcast} alt="yoga" />
+                <img className="passionFour__image" src={podcast} alt="personal_growth" />
                 <h3 className="passionFour__title">Personal Growth</h3>
             </div>
 

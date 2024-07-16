@@ -41,7 +41,7 @@ function Unique() {
               <img className="uniqueness__image" src={coaching} alt="coaching" />
               {/* <div className="uniqueness__wrapper"> */}
                 <h2 className="uniqueness__title">Coaching</h2>
-                <p className="uniqueness__description"> The more you understand yourself, the more you will be able to reach your potential. My training as a life coach has revolutionized </p>
+                <p className="uniqueness__description"> The more you understand yourself, the more you will be able to reach your potential. My training as a life coach has deepen my understanding of our mental health and how it is key for us to flourish both personal and professionally</p>
               {/* </div> */}
             </div>
 
@@ -49,7 +49,7 @@ function Unique() {
               <img className="uniqueness__image imageFour" src={yoga} alt="yoga" />
               {/* <div className="uniqueness__wrapper"> */}
                 <h2 className="uniqueness__title">Yoga</h2>
-                <p className="uniqueness__description yogaDescription"> Progress and excellence is an accumulation of small steps in the right direction. This practice has made me reached new levels of patience, consistency, work ethic, and commitment.</p>
+                <p className="uniqueness__description yogaDescription"> Progress and excellence is an accumulation of small steps in the right direction. This practice has made me reached new levels of consistency, work ethic, and commitment.</p>
               {/* </div> */}
             </div>
          </div>
