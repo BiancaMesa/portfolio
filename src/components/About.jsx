@@ -29,7 +29,7 @@ function About() {
           and innovation.
         </p>
         <a
-          href="/src/resume/CV Bianca Mesa - Front-End Developer.pdf"
+          href="./src/resume/cv_bianca_mesa_front-end_developer.pdf"
           target="_blank"
           className="aboutSection__wrapper--resumeButton"
         >
