@@ -34,7 +34,7 @@ function Unique() {
             <div className="uniqueness uniquenessThree">
               <img className="uniqueness__image" src={coaching} alt="coaching" />
                 <h2 className="uniqueness__title">Coaching</h2>
-                <p className="uniqueness__description"> The more you understand yourself, the more you will be able to reach your potential. My training as a life coach has deepen my understanding of our mental health and how it is key for us to flourish both personal and professionally</p>
+                <p className="uniqueness__description"> The more you understand yourself, the more you will be able to reach your potential. My training as a life coach has deepen my understanding of our mental health and how it is key for us to flourish both personal and professionally.</p>
             </div>
 
             <div  className="uniqueness uniquenessFour">

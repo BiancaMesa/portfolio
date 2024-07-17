@@ -28,7 +28,7 @@ function Values() {
 
                 <div className="valueThree">
                     <h3 className="valueThree__title">
-                        <img className="valueSparkle" src={sparkle} alt="sparkle" /> ATTITUDE OF GROWTH & COLLABORATION<img className="valueSparkle" src={sparkle} alt="sparkle" />
+                        <img className="valueSparkle" src={sparkle} alt="sparkle" /> ATTITUDE OF GROWTH<img className="valueSparkle" src={sparkle} alt="sparkle" />
                     </h3>
                     <p className="valueThree__text">I believe in having a mindset of growth, that is ever-learning and evolving.</p>
                 </div>
