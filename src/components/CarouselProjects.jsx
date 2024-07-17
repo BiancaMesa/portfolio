@@ -22,7 +22,7 @@ function CarouselProjects () {
       "image": rickAndMorty,
       "title": "Rick and Morty Character Finder",
       "description": "React Front-End project created to search Rick and Morty characters. Name, species and status filters. Additionally, click on a character to get a detailed view of the character.",
-      "technologies": "React JS | CSS | Node JS | Vite",
+      "technologies": "React JS | CSS",
       "github": "https://github.com/BiancaMesa/rick-and-morty-character-finder",
       "website": "https://biancamesa.github.io/rick-and-morty-character-finder/",
       "alt": "First slide"
@@ -31,7 +31,7 @@ function CarouselProjects () {
       "image": catCharity,
       "title": "Gatos de Ogíjares",
       "description": "Full-Stack Project created with React and MySQL. It's a cat charity aimed to raise awareness and funds for the cats in Ogíjares. (Project still in progress)",
-      "technologies": "React JS | MySQL | CSS | Node JS | Vite",
+      "technologies": "React JS | MySQL | CSS",
       "github": "https://github.com/BiancaMesa/cat-charity",
       "website": "https://biancamesa.github.io/cat-charity/",
       "alt": "Second slide"
@@ -58,7 +58,7 @@ function CarouselProjects () {
       "image": pawsomeProfileCards,
       "title": "Pawsome Profile Cards",
       "description": "Front-End project developed to create customized business cards and share them.",
-      "technologies": "JavaScript | CSS | Node JS | Vite",
+      "technologies": "JavaScript | CSS",
       "github": "https://github.com/BiancaMesa/project-promo-w-module-2-team-3",
       "website": "https://victoriagz.github.io/project-promo-w-module-2-team-3/",
       "alt": "Sixth slide"
@@ -67,7 +67,7 @@ function CarouselProjects () {
       "image": findACountry,
       "title": "Find a Country",
       "description": "Front-End project where the user can search countries, filter by continent and add new ones to the list.",
-      "technologies": "React | CSS | Node JS | Vite",
+      "technologies": "React | CSS",
       "github": "https://github.com/BiancaMesa/find-a-country",
       "website": "https://biancamesa.github.io/find-a-country/",
       "alt": "Seventh slide"
@@ -76,7 +76,7 @@ function CarouselProjects () {
       "image": grogu,
       "title": "Watch Out for Grogu!",
       "description": "A game developed using React where the user will have to collect as many valuable goods as possible before Grogu advances along the path.",
-      "technologies": "React | CSS | Node JS | Vite ",
+      "technologies": "React | CSS ",
       "github": "https://github.com/BiancaMesa/grogu-game",
       "website": "https://biancamesa.github.io/grogu-game/",
       "alt": "Eigth slide"

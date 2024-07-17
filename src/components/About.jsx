@@ -1,5 +1,5 @@
 import "../scss/components/About.scss";
-import bianca from "../images/bianca7.jpeg";
+import bianca from "../images/bianca3.jpeg";
 
 function About() {
   return (

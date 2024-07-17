@@ -23,14 +23,14 @@ function Values() {
                     <h3 className="valueTwo__title">
                         <img className="valueSparkle" src={sparkle} alt="sparkle" /> HIGH QUALITY <img className="valueSparkle" src={sparkle} alt="sparkle" />
                     </h3>
-                    <p className="valueTwo__text">Bringing high quality to any project and task I do. Striving for excellence.</p>
+                    <p className="valueTwo__text">I bring high quality to any project and task I do. Striving for excellence.</p>
                 </div>
 
                 <div className="valueThree">
                     <h3 className="valueThree__title">
                         <img className="valueSparkle" src={sparkle} alt="sparkle" /> ATTITUDE OF GROWTH & COLLABORATION<img className="valueSparkle" src={sparkle} alt="sparkle" />
                     </h3>
-                    <p className="valueThree__text">Having a mindset of growth, that is ever-learning and evolving.</p>
+                    <p className="valueThree__text">I believe in having a mindset of growth, that is ever-learning and evolving.</p>
                 </div>
 
                 <div className="valueFour">
