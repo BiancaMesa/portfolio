@@ -1,4 +1,5 @@
 import "../scss/components/About.scss";
+import cv from "../resume/cv_bianca_mesa_front-end_developer.pdf";
 import bianca from "../images/bianca3.jpeg";
 
 function About() {
@@ -29,7 +30,7 @@ function About() {
           and innovation.
         </p>
         <a
-          href="./src/resume/cv_bianca_mesa_front-end_developer.pdf"
+          href={cv}
           target="_blank"
           className="aboutSection__wrapper--resumeButton"
         >
